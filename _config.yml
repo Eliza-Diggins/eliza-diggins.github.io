@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Eliza Diggins"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
+  bio              : "Theoretical astrophysicist and mathematical epidemiologist working at the University of Utah. Specializing in galaxy cluster dynamics, hydrodynamic simulations, and the epidemiology of trade mediated pathogens."
+  location         : "Salt Lake City, Utah"
+  employer         : "University of Utah"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  email            :  "eliza.diggins@utah.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "eliza-diggins"
   google_plus      :
   keybase          :
   instagram        :

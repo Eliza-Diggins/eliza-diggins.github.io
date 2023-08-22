@@ -85,10 +85,10 @@ author:
   bio              : "Theoretical astrophysicist and mathematical epidemiologist working at the University of Utah. Specializing in galaxy cluster dynamics, hydrodynamic simulations, and the epidemiology of trade mediated pathogens."
   location         : "Salt Lake City, Utah"
   employer         : "University of Utah"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           :
+  googlescholar    :
   email            :  "eliza.diggins@utah.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -100,20 +100,20 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         :
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "DigginsEliza"
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "ElizaDiggins"
   wikipedia        :
 
 

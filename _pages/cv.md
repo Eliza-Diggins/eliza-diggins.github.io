@@ -11,30 +11,46 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Honors B.S. in Physics, 2024
+* B.S. in Applied Mathematics, 2024
+* International Baccalaureate Diploma, 2020
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* January 2020 - January 2021
+  * Undergraduate researcher, University of Utah Department of Mathematics
+  * Research summary:
+    * Studied the deposition characteristics of SARS COV-2 virions in the respiratory track and modeled the resultant
+      onset of infection.
+    * Focus on determining the role of respiratory topology in the behavior of a COVID infection for people with pre-existing conditions.
+  * Supervisor: Dr. Fred Adler
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* March 2022 - Present
+  * Researcher, University of Utah School of Dentistry
+  * Research summary:
+    * Study the emergence and epidemiological behavior of trade mediated pathogens in international trade networks.
+    * Construct early warning systems to identify source countries and commodities of emergent trade mediated pathogens.
+    * Determine the extent to which climate change impacts the emergence of trade-mediated pathogens.
+    * Supervisor: Dr. Melodie Weller
+* April 2022 - Present
+  * Researcher, University of Utah Department of Physics and Astronomy
+  * Research summary:
+    * Study the behavior of galaxy clusters in isolation and in binary merger scenarios to probe new physics and extend our knowledge of cosmology.
+    * Use the intricate dynamics of galaxy clusters to constrain non-newtonian gravitational theories and explore the extent to which these theories could compete with LCDM.
+    * Supervisor: Dr. Daniel Wik
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Mathematical and physical skills
+  * Theoretical computation and exploration
+  * Big data management, analysis, and synthesis.
+  * Computational modeling / simulation.
+* Software Development
+  * Large scale scientific computing projects in a variety of languages.
+    * Python, Cython, C, R, SQL, C++, Fortran
+* Writing and organizational skills
+  * Significant experience writing grants, papers, proposals, and talks.
+  * Independently competent as a researcher; capable of planning and managing projects from small to large scales.
 
 Publications
 ======
@@ -54,6 +70,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+

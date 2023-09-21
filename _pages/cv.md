@@ -7,17 +7,14 @@ redirect_from:
   - /resume
 ---
 
-.. raw:: html
 
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <title>Title of the document</title>
-      </head>
-      <body>
-        <h1>PDF Example</h1>
-        <p>Open a PDF file <a href="/files/Eliza_Diggin_cv">example</a>.</p>
-      </body>
-    </html>
+<head>
+<title>Title of the document</title>
+</head>
+<body>
+<h1>PDF Example</h1>
+<p>Open a PDF file <a href="files/Eliza_Diggin_cv">example</a>.</p>
+</body>
+
   
 

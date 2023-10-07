@@ -118,8 +118,6 @@ skepticism as can be mustered) normal science should be seen as a probe by which
 new science.
 
 
-<div>
 <script type='text/javascript' src='/assets/js/accordian.js'>
 
 </script>
-</div>

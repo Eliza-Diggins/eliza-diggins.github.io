@@ -104,3 +104,8 @@ my software page for a description of my code projects and those that I make hea
 Research Philosophy
 ===================
 
+{% if page.customjs %}
+  {% for include_script in page.customjs %}
+    <script type='text/javascript' src='{{ include_script }}'></script>
+  {% endfor %}
+{% endif %}

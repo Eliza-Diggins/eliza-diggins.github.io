@@ -33,7 +33,7 @@ customjs:
 .panel {
   padding: 0 18px;
   background-color: white;
-  max-height: 0;
+  max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
@@ -71,11 +71,11 @@ In the menus below, you can find some details on my research interests and curre
 <div>
 <button class="accordion"><b> &#128301; Physics and Astronomy</b></button>
 <div class="panel">
-  <p>My research interests in physics focus on the nature of extragalactic phenomena and how they inform our understanding of
+<p>My research interests in physics focus on the nature of extragalactic phenomena and how they inform our understanding of
 more fundamental physical truths. I'm particularly interested in the nature of gravity, dark matter, dark energy, and the cosmological history
 of our universe. I believe that our understanding of each of these phenomena is incomplete and that one of the next frontiers in physics could occur 
-due to a paradigm shift in the way we understand the dynamics of our universe. 
-
+due to a paradigm shift in the way we understand the dynamics of our universe.</p> 
+<p>
 Right now, my research largely focuses on galaxy clusters and their role in shaping our understanding of the universe. Galaxy clusters are
 the largest relaxed structures in the universe and can tell us a lot about the nature of dark matter, gravity, and cosmology. Unfortunately, these
 structures are not as well understood as we would like and many of the micro-physical processes underlying the hot, X-ray emitting gas in these systems
@@ -83,23 +83,63 @@ are incompletely described leading to systemic issues in our use of these system
 relevant physical constraints on these systems? How does the plasma physics of the gaseous component drive phenomena? How can we better model these processes
 to constrain our observational measurements? Secondly, how can galaxy clusters instruct us in the nature of gravity? Are they entirely self-consistent with General Relativity?
 Modified gravity theories are known to break down in galaxy cluster regimes... Why does this happen? What can that tell us about the underlying nature of the universe?
-
+</p>
+<p>
 To pursue this research, I work as a member of the <a href="https://www.astro.utah.edu/~wik/">X-ray Astrophysics group at the University of Utah</a> (led by Dr. Daniel R. Wik). I focus on analytic, semi-analytic, and numerical
 models of phenomena in galaxy clusters in both standard gravitational paradigms and in modified paradigms. In doing this research, I have contributed to our theoretical
 understanding of the dynamics of both modified gravity theories and galaxy clusters in general. I am also a very active software developer for numerical approaches to these problems. See
-my software page for a description of my code projects and those that I make heavy use of!
+my software page for a description of my code projects and those that I make heavy use of!</p>
+<h2>
+Things I'm Thinking About Right Now
+</h2>
+<ul>
+<li> MOND gravity theories are really successful in galaxies... Why do they suck in galaxy clusters? Why do they succeed in galaxies? </li>
+<li> How can we improve the fidelity of our simulations of galaxy clusters to those observed in the real universe? </li>
+<li> What drives the cosmological tensions we observe in galaxy clusters? </li>
+<li> How does the microphysics of the ICM (turbulence, viscosity, etc.) impact or theoretical predictions? </li>
+</ul>
+
+</div>
+</div>
+<br>
+<div><button class="accordion"> &#129440; <b>Epidemiology</b></button>
+<div class="panel">
+  <p>As an epidemiologist, I'm most interested in the applications of mathematical modeling to our predictions about emergent pathogens. With the increasing prevailance
+of globalization in various regimes of our daily lives, pathogen emergence and rapid transmission is an ever increasing threat. To confront it, one needs to have a stable
+understanding of the underlying dynamics of the threat. Unfortunately, COVID-19 illustrates that we still have a long way to come in this respect.</p>
+
+<p>
+At present, I'm working as part of the <a href="https://dentistry.utah.edu/research/labs/weller">Weller Lab</a> at the <a href="https://dentistry.utah.edu/research/labs/weller">University of Utah School of Dentistry</a> to model
+emergent, trade-mediated pathogens. These pathogens, which could range from the relatively common <i>Salmonella enteritidis</i> to yet unknown entities of disease, are characterized by their mobility 
+in the international food supply. My research interests are largely focused on asking questions regarding the epidemiological consequences of an emergent pathogen with the infectious potential of
+a COVID-19 like epidemic. I work on designing mathematical models for the prediction and characterization of these threats as well as building early warning algorithms for these
+emergent events.
+</p>
+
+<p>
+In addition to my mathematical role in the lab, I also work on data science related projects. With the availability of massive, global, and diverse healthcare datasets, our lab focuses
+much of its time on characterizing relationships between rare diseases, autoimmune disorders, and emergent pathogens. One of the most interesting questions we are working on is characterizing the capacity of
+pathogenic entities to induce autoimmune responses in vulnerable patients.
 </p>
 </div>
 </div>
 <br>
-<button class="accordion"> &#129440; <b>Epidemiology</b></button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
 
+<div>
 <button class="accordion"> &#9854;&#65039; <b>Applied Mathematics</b></button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <p>Applied mathematics is the backbone of everything I do in both epidemiology and in astrophysics. As such, much of my research in applied math is focused on relatively esoteric
+questions regarding my other work. Nonetheless, research in mathematics is one of my favorite activities!</p>
+<p>
+Recently, I've been most interested in numerical analysis questions. I spend a lot of time characterizing algorithms for generating large scale networks from underlying datasets. In studying epidemiology in
+the global food supply, I am required to characterize the underlying network structure which drives that phenomenology.
+</p>
+<p>
+I also spend a lot of time building algorithms for various numerical analysis tasks in astrophysics. Currently, i'm really interested in interpolation methods for 
+requiring physical models (say radial profiles of density or mass) to have the correct, physically reasonable, structures. This problem is one which is usually confronted in a case-by-case manner; however,
+a more standard algorithm (while not ground breaking) would be extremely helpful in reducing the labor around many tasks of this type.
+</p>
+</div>
 </div>
 
 
@@ -116,6 +156,7 @@ scientific skepticism drives the division between (as Kuhn would say) "normal sc
 drive my skeptical assessment of the paradigms we exist within. I do not believe that normal science is esoteric or unimportant, but instead that (with as much 
 skepticism as can be mustered) normal science should be seen as a probe by which to methodologically challenege every aspect of every paradigm seeking faults which might lead to
 new science.
+
 
 
 <script type='text/javascript' src='/assets/js/accordian.js'>

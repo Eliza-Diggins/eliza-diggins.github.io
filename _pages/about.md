@@ -6,11 +6,14 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+customjs:
+  - "/assets/js/accordian.js"
 ---
 
 <style>
 .accordion {
   background-color: #eee;
+  border-radius: 10px;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -87,32 +90,16 @@ my software page for a description of my code projects and those that I make hea
 </p>
 </div>
 
-<button class="accordion">Epidemiology</button>
+<button class="accordion"> &#129440; <b>Epidemiology</b></button>
 <div class="panel">
   <p>Lorem ipsum...</p>
 </div>
 
-<button class="accordion">Applied Mathematics</button>
+<button class="accordion"> &#9854;&#65039; <b>Applied Mathematics</b></button>
 <div class="panel">
   <p>Lorem ipsum...</p>
 </div>
 
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-</script>
 
 Research Philosophy
 ===================

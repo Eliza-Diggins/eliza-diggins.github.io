@@ -68,9 +68,8 @@ these various fields of scientific inquiry and the different ways in which each 
 
 In the menus below, you can find some details on my research interests and current projects in each of these areas.
 
-<button class="accordion">
-<b> &#128301; Physics and Astronomy</b>
-</button>
+<div>
+<button class="accordion"><b> &#128301; Physics and Astronomy</b></button>
 <div class="panel">
   <p>My research interests in physics focus on the nature of extragalactic phenomena and how they inform our understanding of
 more fundamental physical truths. I'm particularly interested in the nature of gravity, dark matter, dark energy, and the cosmological history
@@ -91,7 +90,8 @@ understanding of the dynamics of both modified gravity theories and galaxy clust
 my software page for a description of my code projects and those that I make heavy use of!
 </p>
 </div>
-
+</div>
+<br>
 <button class="accordion"> &#129440; <b>Epidemiology</b></button>
 <div class="panel">
   <p>Lorem ipsum...</p>

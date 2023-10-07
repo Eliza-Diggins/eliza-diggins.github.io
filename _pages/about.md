@@ -124,7 +124,18 @@ pathogenic entities to induce autoimmune responses in vulnerable patients.
 </div>
 </div>
 <br>
-
+<div><button class="accordion"> &#127759; <b>Climate Science</b></button>
+<div class="panel">
+  <p>As part of my work as an epidemiologist, I am very interested in exploring the role that climate change plays in the 
+behavior of pathogens and the epidemics that they cause. The global impacts of climate change are extremely diverse and play out in many ways
+which influence human disease. Food scarcity weakens immune response in those suffering from it and drives mass migration which is tied to epidemic outbreaks. Drought conditions
+drive increased pathogen susceptibility in plants, which threatens our food supplies. All of these issues and others are the focus of my interests in climate science.
+</p>
+Currently, my work is focused on the way that drought induced pathogen susceptibility in plants underpinning our food supply can drive epidemic emergence and threaten
+that food supply. I have been honored to engage in this research field as <a href="https://wilkescenter.utah.edu/">a Wilkes Scholar</a> at the University of Utah.
+</div>
+</div>
+<br>
 <div>
 <button class="accordion"> &#9854;&#65039; <b>Applied Mathematics</b></button>
 <div class="panel">
@@ -141,7 +152,7 @@ a more standard algorithm (while not ground breaking) would be extremely helpful
 </p>
 </div>
 </div>
-
+<br>
 
 Research Philosophy
 ===================
@@ -157,7 +168,36 @@ drive my skeptical assessment of the paradigms we exist within. I do not believe
 skepticism as can be mustered) normal science should be seen as a probe by which to methodologically challenege every aspect of every paradigm seeking faults which might lead to
 new science.
 
+Learning Interests
+------------------
 
+The opportunity to engage in research as a career is extremely exciting, but it is also somewhat limiting. Unfortunately, there are only so
+many hours in any given day! Nonetheless, there are variety of other areas of academics / life which interest me greatly even if the aren't the focus
+of my research. I'm a big advocate for life-long curiosity, especially when that takes you outside of your comfort zone! Below are some of the things that I'm extremely interested
+in, yet only marginally (if at all) competent in!
+
+<ul>
+<li><h3>Science</h3>
+<ul>
+<li>Circuit design and all things almost getting electrocuted.</li>
+<li>Deeply theoretical physics, mathematically physics, Lie Algebras, other moderately arcane math stuff.</li>
+<li>Immunology (even though I don't understand it).</li>
+<li>I have a (semi-unhinged) passion for herpetology.</li>
+</ul>
+</li>
+<li><h3>Social Science</h3>
+<ul>
+<li>Psychiatry / Psychology particularly as it pertains to fellow people on the autism spectrum and in the LGBTQ+ community.</li>
+<li>Behavioral psychology</li>
+</ul>
+<li><h3>Social Work</h3></li>
+<ul>
+<li>As a transgender person and as an autistic one, I exist in an intersection of experience which often comes with a lot of hardship. Due to my circumstances, I've been very privledged in
+both of those identities and therefore spend a great deal of effort giving back to those less fortunate than myself. For that reason, I am 
+extremely passionate about the practice of social work in all its forms and the ways in which excellent social workers change the lives of those around them!</li>
+</ul>
+</li>
+</ul>
 
 <script type='text/javascript' src='/assets/js/accordian.js'>
 

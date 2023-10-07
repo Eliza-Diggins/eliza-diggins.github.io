@@ -7,6 +7,62 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+</style>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+
 <div class="container">
   <div class="image">
     <img src="../images/dm-cover-image.png" alt="Coma Cluster Image" width=300 style="float:right"/>
@@ -19,12 +75,40 @@ of trade-mediated pathogens in complex global trade networks.
   </p>
   </div>
 </div>
-
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 
 Research Interests
 ==================
+
+As a researcher, I am deeply comitted to the philosophy of interdisciplinary and holistic exploration of science in all its
+forms. I am, first and foremost, a theoretical astrophysicist, but I make time to explore areas of interest in other disciplines, particularly
+epidemiology and applied mathematics. I am fascinated by the methodological, cultural, and philosophical cross-over between
+these various fields of scientific inquiry and the different ways in which each informs my thinking on research questions in the others.
+
+In the menus below, you can find some details on my research interests and current projects in each of these areas.
+
+<button class="accordion">Physics and Astronomy</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Epidemiology</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Applied Mathematics</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+
 
 
 <div align="center">

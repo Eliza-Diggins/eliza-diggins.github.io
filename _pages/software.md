@@ -9,16 +9,27 @@ customjs:
   - "/assets/js/accordian.js"
 ---
 
-<link rel="stylesheet" href="/assets/css/thought_bubble.css">
-
-<div class='parent'>
-  <div class='child inline-block-child'><p class="bubble thought">Is it a bird? Is it a plane? Is it an astrophysicist? Oh god! It's a physicist writing code!
-</p></div>
-<div class='child inline-block-child'><div style="width: 495px" class="wp-caption aligncenter"><a href="https://xkcd.com/979/"><img decoding="async" loading="lazy" class="size-full" src="https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png" alt="Frustration while programming? Never." width="485" height="270"></a><p class="wp-caption-text">Related xkcd: Wisdom of the Ancients (979)</p></div>
+<style>
+#container{
+    width: 100%;
+}
+#floated{
+    float: left;
+    width: 50%;
+}
+</style>
+<div id="container">
+<div id="floated" style="float: right">
+<a href="https://xkcd.com/979/"><img decoding="async" loading="lazy" class="size-full" src="https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png" alt="Frustration while programming? Never."></a>
 </div>
-</div>
-
-
-
 All joking aside, its no secret that physicists spend a great deal of their time on the verge of tears (you heard it here first) because their C (for FORTRAN) code isn't running
-or (heaven forbid) you t  
+or (heaven forbid) they can't find the answer they need on stack exchange. I won't even mention how annoying this website can be to work on!
+<p>
+Unfortunately, scientific software is often very niche and isn't easy to find, let alone use. This becomes an extra nuisance because *some people* (cough cough physicists) don't seem particularly
+interested in writing good documentation or any documentation for that matter. Fortunately, I actually quite enjoy developing software! For that reason, I've used this page
+to feature some of the excellent code that I use in my day-to-day research. Only a few of these codes are ones that I've personally worked on developing, but they are all invaluable tools
+for the sort of research that I do!
+</p>
+
+</div>
+

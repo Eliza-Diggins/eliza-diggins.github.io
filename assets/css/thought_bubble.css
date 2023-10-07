@@ -1,7 +1,10 @@
 .inline-block-child {
   display: inline-block;
 }
-
+#column_container {
+    width: 959px;
+    margin: 0 auto;
+}
 p.bubble {
 	position: relative;
 	width: 300px;

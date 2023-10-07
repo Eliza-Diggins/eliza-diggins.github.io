@@ -7,22 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-</script>
 <style>
 .accordion {
   background-color: #eee;
@@ -80,7 +65,7 @@ these various fields of scientific inquiry and the different ways in which each 
 
 In the menus below, you can find some details on my research interests and current projects in each of these areas.
 
-<button class="accordion"><b>Physics and Astronomy</b></button>
+<button class="accordion"><b> &#128301; Physics and Astronomy</b></button>
 <div class="panel">
   <p>My research interests in physics focus on the nature of extragalactic phenomena and how they inform our understanding of
 more fundamental physical truths. I'm particularly interested in the nature of gravity, dark matter, dark energy, and the cosmological history
@@ -111,6 +96,23 @@ my software page for a description of my code projects and those that I make hea
 <div class="panel">
   <p>Lorem ipsum...</p>
 </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
 
 Research Philosophy
 ===================

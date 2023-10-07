@@ -83,7 +83,7 @@ relevant physical constraints on these systems? How does the plasma physics of t
 to constrain our observational measurements? Secondly, how can galaxy clusters instruct us in the nature of gravity? Are they entirely self-consistent with General Relativity?
 Modified gravity theories are known to break down in galaxy cluster regimes... Why does this happen? What can that tell us about the underlying nature of the universe?
 
-To pursue this research, I work as a member of the X-ray Astrophysics group at the University of Utah (led by Dr. Daniel R. Wik). I focus on analytic, semi-analytic, and numerical
+To pursue this research, I work as a member of the <a href="https://www.astro.utah.edu/~wik/">X-ray Astrophysics group at the University of Utah</a> (led by Dr. Daniel R. Wik). I focus on analytic, semi-analytic, and numerical
 models of phenomena in galaxy clusters in both standard gravitational paradigms and in modified paradigms. In doing this research, I have contributed to our theoretical
 understanding of the dynamics of both modified gravity theories and galaxy clusters in general. I am also a very active software developer for numerical approaches to these problems. See
 my software page for a description of my code projects and those that I make heavy use of!
@@ -104,10 +104,8 @@ my software page for a description of my code projects and those that I make hea
 Research Philosophy
 ===================
 
-{% if page.customjs %}
-  {% for include_script in page.customjs %}
-    <script type='text/javascript' src='{{ include_script }}'>
+<div>
+<script type='text/javascript' src='{{ include_script }}'>
 
-    </script>
-  {% endfor %}
-{% endif %}
+</script>
+</div>

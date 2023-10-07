@@ -1,3 +1,6 @@
+.inline-block-child {
+  display: inline-block;
+}
 
 p.bubble {
 	position: relative;

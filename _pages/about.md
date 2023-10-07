@@ -50,7 +50,9 @@ customjs:
 }
 </style>
 
-
+<div>
+<img src="/images/84c79ed870a427f618c2f462672b0fc1.jpg" alt="sdf" width="100%">
+</div>
 
    I'm a theoretical astrophysicist and mathematician at the University of Utah. My research is shared between the Department of Physics
 and Astronomy, where I study galaxy cluster dynamics and gravitational theory; and the School of Dentistry, where I work on mathematical models

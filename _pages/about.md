@@ -68,7 +68,9 @@ these various fields of scientific inquiry and the different ways in which each 
 
 In the menus below, you can find some details on my research interests and current projects in each of these areas.
 
-<button class="accordion"><b> &#128301; Physics and Astronomy</b></button>
+<button class="accordion">
+<b> &#128301; Physics and Astronomy</b>
+</button>
 <div class="panel">
   <p>My research interests in physics focus on the nature of extragalactic phenomena and how they inform our understanding of
 more fundamental physical truths. I'm particularly interested in the nature of gravity, dark matter, dark energy, and the cosmological history
@@ -104,8 +106,20 @@ my software page for a description of my code projects and those that I make hea
 Research Philosophy
 ===================
 
+I believe in the inherent importance of scientific progress for its own sake and for the sake of the human endeavour. I am staunchly against
+isolationism in science and believe that science in both its practice and its implementation should be a diverse and inherently human affair. 
+Diversity in science is important to me and, in my opinion, one of the most important things we can use to improve the productivity, communicativity, and impact of
+science on all scales. 
+
+In my research, I strive to be radically skeptical and challenge paradigms for the sake of forcing them to stand up to challenge. It is my philosophy that
+scientific skepticism drives the division between (as Kuhn would say) "normal science," and paradigm shifting research. In my research, I allow normal science, as done by myself and by others, to
+drive my skeptical assessment of the paradigms we exist within. I do not believe that normal science is esoteric or unimportant, but instead that (with as much 
+skepticism as can be mustered) normal science should be seen as a probe by which to methodologically challenege every aspect of every paradigm seeking faults which might lead to
+new science.
+
+
 <div>
-<script type='text/javascript' src='{{ include_script }}'>
+<script type='text/javascript' src='/assets/js/accordian.js'>
 
 </script>
 </div>

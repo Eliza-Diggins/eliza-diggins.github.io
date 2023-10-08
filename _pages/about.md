@@ -192,7 +192,7 @@ which I want to share.
       </figure>
       <div class="farticle-body">
         <h2>Social Work and Community Activism</h2>
-        <p style="color:black">
+        <p>
           My identity as a trans person is a complicated aspect of my life, but one which is extremely important to me. I've been
             very fortunate to have had the opportunities I've had; many people in my community are not as fortunate. For that reason, I'm very
             focused on doing everything I can to help other people like me who are facing hard times or going through personal crises. On this page, I talk about what
@@ -211,16 +211,14 @@ which I want to share.
 
 <div class="farticle-wrapper">
 <figure>
-<img src="https://picsum.photos/id/1005/800/450" alt="" />
+<img src="/images/LGBTIQA-Illustration.png" alt="" />
 </figure>
 <div class="farticle-body">
 <h2>Diversity in Higher Education</h2>
 <p>
 Diversity matters, everywhere. Academia has a tendency to get stuck in the echo-chamber routine where the same people with the same backgrounds and the same approach are the only ones actually
     getting to participate in the endeavour of human knowledge building. This in turn leads to people getting left out of our intellectual traditions and our intellectual traditions missing out on the
-    contributions of those people. I cannot lend a perspective to every diverse group, but I am very interested in understanding how inclusion can lead to change and how change can lead to inclusion. Particularly
-    regarding LGBTQ people like myself, I'm committed to fighting to remove the systemic barriers that prevent people like me from playing a role in higher education. On this page, you can read some of my experiences
-    and thoughts on diversity in higher education.
+    contributions of those people. On this page, you can read some of my experiences and thoughts on diversity in higher education.
 </p>
 <a href="#" class="read-more">
 Read more <span class="sr-only">about this is some title</span>
@@ -234,7 +232,7 @@ Read more <span class="sr-only">about this is some title</span>
   <farticle>
 <div class="farticle-wrapper">
 <figure>
-<img src="https://picsum.photos/id/103/800/450" alt="" />
+<img src="/images/1-snapping-turtle.jpg" alt="" />
 </figure>
 <div class="farticle-body">
 <h2>Eliza's Collection of Fun Facts</h2>

@@ -100,6 +100,7 @@ Generic layout (demo looks)
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     padding-top: 30px;
     padding-bottom: 30px;
+  border-radius: 30px;
   gap: 24px;
 }
 

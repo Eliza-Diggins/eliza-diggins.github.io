@@ -198,7 +198,7 @@ which I want to share.
             focused on doing everything I can to help other people like me who are facing hard times or going through personal crises. On this page, I talk about what
             I'm doing to give back to the LGBTQ community and what you can do to make a difference for marginalized people in your communities.
         </p>
-        <a href="#" class="read-more">
+        <a href="https://eliza-diggins.github.io/service.html" class="read-more">
           Read more <span class="sr-only">about this is some title</span>
           <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -220,7 +220,7 @@ Diversity matters, everywhere. Academia has a tendency to get stuck in the echo-
     getting to participate in the endeavour of human knowledge building. This in turn leads to people getting left out of our intellectual traditions and our intellectual traditions missing out on the
     contributions of those people. On this page, you can read some of my experiences and thoughts on diversity in higher education.
 </p>
-<a href="#" class="read-more">
+<a href="https://eliza-diggins.github.io/diversity.html" class="read-more">
 Read more <span class="sr-only">about this is some title</span>
 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
 <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -241,7 +241,7 @@ What good is a website if you can't use it to indiscriminately info-dump about a
     random things that I think are interesting. Sometimes its science, sometimes its history, and sometimes it's just weird. Come for the science, stay for the mildly unhinged
     things you can talk about at dinner parties... Assuming you don't want to be invited back.
 </p>
-<a href="#" class="read-more">
+<a href="https://eliza-diggins.github.io/fun_facts.html" class="read-more">
 Read more <span class="sr-only">about this is some title</span>
 <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
 <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />

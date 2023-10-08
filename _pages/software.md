@@ -19,10 +19,10 @@ customjs:
 }
 </style>
 <div id="container">
-<div id="floated" style="float: right">
+<div id="floated" style="float: right; padding: 10px">
 <a href="https://xkcd.com/979/"><img decoding="async" loading="lazy" class="size-full" src="https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png" alt="Frustration while programming? Never."></a>
 </div>
-All joking aside, its no secret that physicists spend a great deal of their time on the verge of tears (you heard it here first) because their C (for FORTRAN) code isn't running
+All joking aside, its no secret that physicists spend a great deal of their time on the verge of tears (you heard it here first) because their C (or FORTRAN) code isn't running
 or (heaven forbid) they can't find the answer they need on stack exchange. I won't even mention how annoying this website can be to work on!
 <p>
 Unfortunately, scientific software is often very niche and isn't easy to find, let alone use. This becomes an extra nuisance because *some people* (cough cough physicists) don't seem particularly

@@ -363,7 +363,7 @@ Generic layout (demo looks)
 <div class="article-body">
 <h2>Diversity in Higher Education</h2>
 <p>
-Diversity matters; everywhere. Academia has a tendency to get stuck in the echo-chamber routine where the same people with the same backgrounds and the same approach are the only ones actually
+Diversity matters, everywhere. Academia has a tendency to get stuck in the echo-chamber routine where the same people with the same backgrounds and the same approach are the only ones actually
     getting to participate in the endeavour of human knowledge building. This in turn leads to people getting left out of our intellectual traditions and our intellectual traditions missing out on the
     contributions of those people. I cannot lend a perspective to every diverse group, but I am very interested in understanding how inclusion can lead to change and how change can lead to inclusion. Particularly
     regarding LGBTQ people like myself, I'm committed to fighting to remove the systemic barriers that prevent people like me from playing a role in higher education. On this page, you can read some of my experiences

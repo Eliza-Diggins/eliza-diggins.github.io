@@ -166,36 +166,240 @@ drive my skeptical assessment of the paradigms we exist within. I do not believe
 skepticism as can be mustered) normal science should be seen as a probe by which to methodologically challenege every aspect of every paradigm seeking faults which might lead to
 new science.
 
-Learning Interests
-------------------
+More Than a Scientist
+---------------------
 
-The opportunity to engage in research as a career is extremely exciting, but it is also somewhat limiting. Unfortunately, there are only so
-many hours in any given day! Nonetheless, there are variety of other areas of academics / life which interest me greatly even if the aren't the focus
-of my research. I'm a big advocate for life-long curiosity, especially when that takes you outside of your comfort zone! Below are some of the things that I'm extremely interested
-in, yet only marginally (if at all) competent in!
+Whenever I meet a new person and they ask me what I do, the interaction typically goes something like this: "What do you do for a living?" they'll say. I respond with "Oh, i'm a scientist." Then it's "Wow! What kind of scientist?" 
+At this point, I say, "I'm an astrophysicist," and the reaction is always some variation of "wow, you must be so smart," or "I could never do that," or the 
+ever annoying "wow, a transgender scientist! That's a big accomplishment!"
 
-<ul>
-<li><h3>Science</h3>
-<ul>
-<li>Circuit design and all things almost getting electrocuted.</li>
-<li>Deeply theoretical physics, mathematically physics, Lie Algebras, other moderately arcane math stuff.</li>
-<li>Immunology (even though I don't understand it).</li>
-<li>I have a (semi-unhinged) passion for herpetology.</li>
-</ul>
-</li>
-<li><h3>Social Science</h3>
-<ul>
-<li>Psychiatry / Psychology particularly as it pertains to fellow people on the autism spectrum and in the LGBTQ+ community.</li>
-<li>Behavioral psychology</li>
-</ul>
-<li><h3>Social Work</h3></li>
-<ul>
-<li>As a transgender person and as an autistic one, I exist in an intersection of experience which often comes with a lot of hardship. Due to my circumstances, I've been very privledged in
-both of those identities and therefore spend a great deal of effort giving back to those less fortunate than myself. For that reason, I am 
-extremely passionate about the practice of social work in all its forms and the ways in which excellent social workers change the lives of those around them!</li>
-</ul>
-</li>
-</ul>
+<p>
+The truth is that my science, despite being very dear to me, is also shrouded in a cultural perception of science that I wholeheartedly reject. I despise the notion that scientists are
+in some way "smarter" than other people in other roles and I bristle against the complacency which that perceptions give some members of the scientific
+community. My ability to write down fancy squiggles on a page or write incomprehensible software doesn't make me or anyone else like me "superior" or "brilliant," it just makes us talented what we do.
+</p>
+<p>
+All that having been said, I'm personally comitted to the philosophy of being more than a scientist. It's important to me that others see the very normal person behind the scientific facade. As such, below are some cards about decidedly non-scientific (or at least not science I know much about) things that are important to me and
+which I want to share.
+</p>
+
+
+
+<style>
+article {
+  --img-scale: 1.001;
+  --title-color: black;
+  --link-icon-translate: -20px;
+  --link-icon-opacity: 0;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: none;
+  background: #fff;
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+article a::after {
+  position: absolute;
+  inset-block: 0;
+  inset-inline: 0;
+  cursor: pointer;
+  content: "";
+}
+
+/* basic article elements styling */
+article h2 {
+  margin: 0 0 18px 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.9rem;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  transition: color 0.3s ease-out;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+article img {
+  max-width: 100%;
+  transform-origin: center;
+  transform: scale(var(--img-scale));
+  transition: transform 0.4s ease-in-out;
+}
+
+.article-body {
+  padding: 24px;
+}
+
+article a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #28666e;
+}
+
+article a:focus {
+  outline: 1px dotted #28666e;
+}
+
+article a .icon {
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  transform: translateX(var(--link-icon-translate));
+  opacity: var(--link-icon-opacity);
+  transition: all 0.3s;
+}
+
+/* using the has() relational pseudo selector to update our custom properties */
+article:has(:hover, :focus) {
+  --img-scale: 1.1;
+  --title-color: #28666e;
+  --link-icon-translate: 0;
+  --link-icon-opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+/************************ 
+Generic layout (demo looks)
+**************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+.articles {
+  display: grid;
+  max-width: 100%;
+  margin-inline: auto;
+  padding-inline: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  gap: 24px;
+}
+
+@media screen and (max-width: 960px) {
+  article {
+    container: card/inline-size;
+  }
+  .article-body p {
+    display: none;
+  }
+}
+
+@container card (min-width: 380px) {
+  .article-wrapper {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 16px;
+  }
+  .article-body {
+    padding-left: 0;
+  }
+  figure {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  figure img {
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+</style>
+<section class="articles">
+  <article>
+    <div class="article-wrapper">
+      <figure>
+        <img src="/images/620-1.jpg" alt="" >
+      </figure>
+      <div class="article-body">
+        <h2>Social Work and Community Activism</h2>
+        <p style="color:black">
+          My identity as a trans person is a complicated aspect of my life, but one which is extremely important to me. I've been
+            very fortunate to have had the opportunities I've had; many people in my community are not as fortunate. For that reason, I'm very
+            focused on doing everything I can to help other people like me who are facing hard times or going through personal crises. On this page, I talk about what
+            I'm doing to give back to the LGBTQ community and what you can do to make a difference for marginalized people in your communities.
+        </p>
+        <a href="#" class="read-more">
+          Read more <span class="sr-only">about this is some title</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </article>
+  <article>
+
+<div class="article-wrapper">
+<figure>
+<img src="https://picsum.photos/id/1005/800/450" alt="" />
+</figure>
+<div class="article-body">
+<h2>Diversity in Higher Education</h2>
+<p>
+Diversity matters; everywhere. Academia has a tendency to get stuck in the echo-chamber routine where the same people with the same backgrounds and the same approach are the only ones actually
+    getting to participate in the endeavour of human knowledge building. This in turn leads to people getting left out of our intellectual traditions and our intellectual traditions missing out on the
+    contributions of those people. I cannot lend a perspective to every diverse group, but I am very interested in understanding how inclusion can lead to change and how change can lead to inclusion. Particularly
+    regarding LGBTQ people like myself, I'm committed to fighting to remove the systemic barriers that prevent people like me from playing a role in higher education. On this page, you can read some of my experiences
+    and thoughts on diversity in higher education.
+</p>
+<a href="#" class="read-more">
+Read more <span class="sr-only">about this is some title</span>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+<path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+</svg>
+</a>
+</div>
+</div>
+  </article>
+  <article>
+<div class="article-wrapper">
+<figure>
+<img src="https://picsum.photos/id/103/800/450" alt="" />
+</figure>
+<div class="article-body">
+<h2>Eliza's Collection of Fun Facts</h2>
+<p>
+What good is a website if you can't use it to indiscriminately info-dump about all of your favorite things? On this page, I make blog style posts about
+    random things that I think are interesting. Sometimes its science, sometimes its history, and sometimes it's just weird. Come for the science, stay for the mildly unhinged
+    things you can talk about at dinner parties... Assuming you don't want to be invited back.
+</p>
+<a href="#" class="read-more">
+Read more <span class="sr-only">about this is some title</span>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+<path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+</svg>
+</a>
+</div>
+</div>
+  </article>
+</section>
 
 <script type='text/javascript' src='/assets/js/accordian.js'>
 

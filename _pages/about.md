@@ -184,13 +184,13 @@ which I want to share.
 </p>
 
 <link rel="stylesheet" href="/assets/css/cards.css">
-<section class="articles">
-  <article>
-    <div class="article-wrapper">
+<section class="farticles">
+  <farticle>
+    <div class="farticle-wrapper">
       <figure>
         <img src="/images/620-1.jpg" alt="" >
       </figure>
-      <div class="article-body">
+      <div class="farticle-body">
         <h2>Social Work and Community Activism</h2>
         <p style="color:black">
           My identity as a trans person is a complicated aspect of my life, but one which is extremely important to me. I've been
@@ -206,14 +206,14 @@ which I want to share.
         </a>
       </div>
     </div>
-  </article>
-  <article>
+  </farticle>
+  <farticle>
 
-<div class="article-wrapper">
+<div class="farticle-wrapper">
 <figure>
 <img src="https://picsum.photos/id/1005/800/450" alt="" />
 </figure>
-<div class="article-body">
+<div class="farticle-body">
 <h2>Diversity in Higher Education</h2>
 <p>
 Diversity matters, everywhere. Academia has a tendency to get stuck in the echo-chamber routine where the same people with the same backgrounds and the same approach are the only ones actually
@@ -230,13 +230,13 @@ Read more <span class="sr-only">about this is some title</span>
 </a>
 </div>
 </div>
-  </article>
-  <article>
-<div class="article-wrapper">
+  </farticle>
+  <farticle>
+<div class="farticle-wrapper">
 <figure>
 <img src="https://picsum.photos/id/103/800/450" alt="" />
 </figure>
-<div class="article-body">
+<div class="farticle-body">
 <h2>Eliza's Collection of Fun Facts</h2>
 <p>
 What good is a website if you can't use it to indiscriminately info-dump about all of your favorite things? On this page, I make blog style posts about
@@ -251,7 +251,7 @@ Read more <span class="sr-only">about this is some title</span>
 </a>
 </div>
 </div>
-  </article>
+  </farticle>
 </section>
 
 <script type='text/javascript' src='/assets/js/accordian.js'>

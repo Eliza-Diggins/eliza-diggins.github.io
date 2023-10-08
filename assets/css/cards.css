@@ -1,4 +1,4 @@
-article {
+farticle {
   --img-scale: 1.001;
   --title-color: black;
   --link-icon-translate: -20px;
@@ -12,7 +12,7 @@ article {
   overflow: hidden;
 }
 
-article a::after {
+farticle a::after {
   position: absolute;
   inset-block: 0;
   inset-inline: 0;
@@ -20,8 +20,8 @@ article a::after {
   content: "";
 }
 
-/* basic article elements styling */
-article h2 {
+/* basic farticle elements styling */
+farticle h2 {
   margin: 0 0 18px 0;
   font-family: "Bebas Neue", cursive;
   font-size: 1.9rem;
@@ -37,29 +37,29 @@ figure {
   overflow: hidden;
 }
 
-article img {
+farticle img {
   max-width: 100%;
   transform-origin: center;
   transform: scale(var(--img-scale));
   transition: transform 0.4s ease-in-out;
 }
 
-.article-body {
+.farticle-body {
   padding: 24px;
 }
 
-article a {
+farticle a {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
   color: #28666e;
 }
 
-article a:focus {
+farticle a:focus {
   outline: 1px dotted #28666e;
 }
 
-article a .icon {
+farticle a .icon {
   min-width: 24px;
   width: 24px;
   height: 24px;
@@ -70,7 +70,7 @@ article a .icon {
 }
 
 /* using the has() relational pseudo selector to update our custom properties */
-article:has(:hover, :focus) {
+farticle:has(:hover, :focus) {
   --img-scale: 1.1;
   --title-color: #28666e;
   --link-icon-translate: 0;
@@ -91,7 +91,7 @@ Generic layout (demo looks)
 
 
 
-.articles {
+.farticles {
   display: grid;
   max-width: 100%;
   margin-inline: auto;
@@ -104,21 +104,21 @@ Generic layout (demo looks)
 }
 
 @media screen and (max-width: 960px) {
-  article {
+  farticle {
     container: card/inline-size;
   }
-  .article-body p {
+  .farticle-body p {
     display: none;
   }
 }
 
 @container card (min-width: 380px) {
-  .article-wrapper {
+  .farticle-wrapper {
     display: grid;
     grid-template-columns: 100px 1fr;
     gap: 16px;
   }
-  .article-body {
+  .farticle-body {
     padding-left: 0;
   }
   figure {

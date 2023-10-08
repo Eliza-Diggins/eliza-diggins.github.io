@@ -167,7 +167,7 @@ skepticism as can be mustered) normal science should be seen as a probe by which
 new science.
 
 More Than a Scientist
----------------------
+=====================
 
 Whenever I meet a new person and they ask me what I do, the interaction typically goes something like this: "What do you do for a living?" they'll say. I respond with "Oh, i'm a scientist." Then it's "Wow! What kind of scientist?" 
 At this point, I say, "I'm an astrophysicist," and the reaction is always some variation of "wow, you must be so smart," or "I could never do that," or the 

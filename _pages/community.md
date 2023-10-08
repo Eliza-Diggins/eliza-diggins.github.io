@@ -3,8 +3,8 @@ permalink: /service/
 title: "Social Work and Activism"
 author_profile: true
 redirect_from: 
-  - /service/
-  - /service.html
+  - "/service/"
+  - "/service.html"
 customjs:
   - "/assets/js/accordian.js"
 ---

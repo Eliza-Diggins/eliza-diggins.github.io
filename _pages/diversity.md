@@ -3,8 +3,8 @@ permalink: /diversity/
 title: "Diversity in Higher Ed."
 author_profile: true
 redirect_from: 
-  - /diversity/
-  - /diversity.html
+  - "/diversity/"
+  - "/diversity.html"
 customjs:
   - "/assets/js/accordian.js"
 ---

@@ -184,7 +184,7 @@ Astrophysics Codes
       A lighter weight approach to simulation analysis than yt, pynbody is extremely useful for analysis with SPH
       datasets and provides very quick snapshots of data without as much setup as yt. It is not well suited to AMR simulations.
 </p>
-      <a href="https://www.github.com/jzuhone/cluster_generator">Read More</a>
+      <a href="https://pynbody.github.io/pynbody/">Read More</a>
     </div>
   </div>
 </div>

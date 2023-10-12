@@ -74,11 +74,15 @@ customjs:
   padding:1rem;
   cursor:pointer;
   background-color:#fff;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px;
 }
 .card img{
   width:100%;
   height:160px;
   border-radius:10px;
+  background-color: white;
   position:relative;
   z-index:1000;
   transition:all .5s ease-in-out;
@@ -97,9 +101,10 @@ customjs:
   text-align:center;
 }
 .card__content p{
-  font-size:1.1rem;
-  line-height:1.8rem;
+  font-size:0.8rem;
+  line-height:1.0rem;
   text-align:center;
+  color: black;
 }
 .card__content a{
   width:200px;
@@ -116,7 +121,7 @@ customjs:
 }
 .card__content a:hover{
   color:#fff;
-  background-color:#000;
+  background-color:#111;
   box-shadow:0 0 2px 2px rgba(0,0,0,0.4);
 }
 .card:hover img{
@@ -169,11 +174,13 @@ Astrophysics Codes
 <div class="panel">
 <div class="container">
   <div class="card">
-    <img src="https://i.postimg.cc/1X8R7m8y/design.png"/>
+    <img src="/images/cluster_generator_logo.png"/>
     <div class="card__content">
-      <h2>Web Design</h2>
+      <h2>Cluster Generator</h2>
       <p>
-         Lorem Ipsum has been the industry's standard dummy text ever          since the 1500s.
+         <code style="color:black">cluster_generator</code>is an actively supported
+         initial conditions generator for galaxy clusters. It supports ICs for most of the 
+         popular simular codes. Developed by John ZuHone.
       </p>
       <a href="#">Read More</a>
     </div>

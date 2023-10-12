@@ -63,6 +63,7 @@ customjs:
 
 .container{
   max-width:1000px;
+  min-height: 500px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -181,26 +182,6 @@ Astrophysics Codes
          <code style="color:black">cluster_generator</code>is an actively supported
          initial conditions generator for galaxy clusters. It supports ICs for most of the 
          popular simular codes. Developed by John ZuHone.
-      </p>
-      <a href="#">Read More</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://i.postimg.cc/d1Ht9ktW/develop.jpg"/>
-    <div class="card__content">
-      <h2>Web Development</h2>
-      <p>
-         Lorem Ipsum has been the industry's standard dummy text ever          since the 1500s.
-      </p>
-      <a href="#">Read More</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://i.postimg.cc/xCT1HyYJ/develop2.jpg"/>
-    <div class="card__content">
-      <h2>Mobile Apps</h2>
-      <p>
-         Lorem Ipsum has been the industry's standard dummy text ever          since the 1500s.
       </p>
       <a href="#">Read More</a>
     </div>

@@ -38,7 +38,7 @@ customjs:
 .panel {
   padding: 0 18px;
   background-color: white;
-  max-height: 0px;
+  max-height: 1000px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
@@ -100,6 +100,7 @@ customjs:
 .card__content h2{
   margin:.6rem auto;
   text-align:center;
+  visibility: visible;
 }
 .card__content p{
   font-size:0.8rem;
@@ -163,11 +164,48 @@ Astrophysics Codes
 <div>
 <button class="accordion"><b> &#128301; Analysis</b></button>
 <div class="panel">
+<div class="container">
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/yt-project/yt/main/doc/source/_static/yt_logo.png"/>
+    <div class="card__content">
+      <h2>The yt Project</h2>
+      <p>
+         <code style="color:black">yt</code>is the gold standard for analyzing volumetric data of all types. The vast
+          majority of my personal analysis pipeline relies heavily on <code style="color:black">yt</code>.
+      </p>
+      <a href="https://github.com/yt-project/yt">Read More</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="http://pynbody.github.io/pynbody/_static/logo.svg"/>
+    <div class="card__content">
+      <h2>pynbody</h2>
+      <p>
+      A lighter weight approach to simulation analysis than yt, pynbody is extremely useful for analysis with SPH
+      datasets and provides very quick snapshots of data without as much setup as yt. It is not well suited to AMR simulations.
+</p>
+      <a href="https://www.github.com/jzuhone/cluster_generator">Read More</a>
+    </div>
+  </div>
+</div>
 </div>
 </div>
 <div>
 <button class="accordion"><b> &#128301; N-Body / Hydrodynamics Simulations</b></button>
 <div class="panel">
+<div class="container">
+  <div class="card">
+    <img src="/images/ramses.png"/>
+    <div class="card__content">
+      <h2>RAMSES</h2>
+      <p>
+         Documentation be damned, RAMSES is a great option for hydrodynamics / N-body simulation. Just 
+         hope to god you don't need to dive under the hood. Or find a logo.
+      </p>
+      <a href="https://bitbucket.org/rteyssie/ramses/src/master/">Read More</a>
+    </div>
+  </div>
+</div>
 </div>
 </div>
 <div>
@@ -183,7 +221,7 @@ Astrophysics Codes
          initial conditions generator for galaxy clusters. It supports ICs for most of the 
          popular simular codes. Developed by John ZuHone.
       </p>
-      <a href="#">Read More</a>
+      <a href="https://www.github.com/jzuhone/cluster_generator">Read More</a>
     </div>
   </div>
 </div>

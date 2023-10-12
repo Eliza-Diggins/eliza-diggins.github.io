@@ -1,6 +1,7 @@
 ---
 title: "Snapping Turtles and Why They're Amazing"
 excerpt: "Chomp Chomp!"
+layout: single
 collection: factposts
 author_profile: true
 ---

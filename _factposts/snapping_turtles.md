@@ -8,7 +8,7 @@ author_profile: true
 <div style="text-align:center">
 <figure>
 <img src="https://img00.deviantart.net/4fbc/i/2014/040/8/b/baby_snapping_turtle_by_auronstalker-d3ih4fy.jpg" alt="Trulli" style="width:60%">
-<figcaption align = "center" style="font-size: 8px"><i>Someone's undeniably cute baby snapping turtle. Probably an ill advised pet by the end of the decade; but still, look at those eyes!</i></figcaption>
+<figcaption align = "center" style="font-size: 10pt"><i>Someone's undeniably cute baby snapping turtle. Probably an ill advised pet by the end of the decade; but still, look at those eyes!</i></figcaption>
 </figure>
 </div>
 It's a little know fact (at least it was) that I <u>love-love-love</u> snapping turtles. They're physiologically incredible and they're suprisingly cute
@@ -26,7 +26,7 @@ small fish (chomp chomp). What's really cool is that they hibernate in the mud a
 <div style="text-align:center">
 <figure>
 <img src="https://i.redd.it/2g9455leu6ky.jpg" alt="Trulli" style="width:80%">
-<figcaption align = "center" style="font-size: 8px">One <u>thick</u> alligator snapping turtle enjoying his 600+ chins!</figcaption>
+<figcaption align = "center" style="font-size: 10pt">One <u>thick</u> alligator snapping turtle enjoying his 600+ chins!</figcaption>
 </figure>
 </div>
 <p>

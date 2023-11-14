@@ -1,6 +1,12 @@
 {% include base_path %}
 
 <!-- begin SEO -->
+
+<!-- Google Analytics tracking ID -->
+{% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+{% endif %}
+
 {% if site.url %}
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}

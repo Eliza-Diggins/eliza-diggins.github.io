@@ -12,14 +12,6 @@ customjs:
 @import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* { margin: 0; padding: 0; box-sizing: border-box }
-body {
-  padding: 2rem;
-  font-family: 'Roboto', sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-}
 ul{
   width: min(100%, 60rem);
   overflow: hidden;
@@ -102,27 +94,32 @@ to an general undergraduate audience.
 <ul>
   <li class="card" style="--color:#ececec; --bg-color:#E98B43">
     <div class="icon"><i class="fa-solid fa-house"></i></div>
-    <div class="title">Lorem ipsum</div>
-    <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis pretium euismod. Aenean elit sapien, varius quis ante sit amet, tincidunt finibus orci. Ut consectetur imperdiet quam, at ultrices mi rutrum ut. Sed semper justo quis nisl ornare interdum in ut ante. </div>
+    <div class="title">Engaged Pedagogy</div>
+    <div class="content">The SLS seeks to highlight students who place an emphasis on engaged, innovative, and effective pedagogical methods.</div>
   </li>
   <li class="card" style="--color:#ececec; --bg-color:#C23D2A">
     <div class="icon"><i class="fa-solid fa-gear"></i></div>
-    <div class="title">Lorem ipsum</div>
-    <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis pretium euismod. Aenean elit sapien, varius quis ante sit amet, tincidunt finibus orci. Ut consectetur imperdiet quam, at ultrices mi rutrum ut. Sed semper justo quis nisl ornare interdum in ut ante. </div>
+    <div class="title">Educational Value</div>
+    <div class="content">SLS Lectures are selected particularly to highlight topics and ideas which are applicable, interesting, and engaging for students. We seek to present
+lectures on topics which extend and improve the core curriculum of offered course work.</div>
   </li>
   <li class="card" style="--color:#ececec; --bg-color:#842C2A">
     <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-    <div class="title">Lorem ipsum</div>
-    <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis pretium euismod. Aenean elit sapien, varius quis ante sit amet, tincidunt finibus orci. Ut consectetur imperdiet quam, at ultrices mi rutrum ut. Sed semper justo quis nisl ornare interdum in ut ante. </div>
+    <div class="title">Learning First Culture</div>
+    <div class="content">SLS is committed to promoting a culture of curiosity and collaboration within the P&A community. Student instructors are not experts in
+    those topics which they teach and we therefore encourage SLS lectures to be a space to acknowledge limitations in our knowledge, to foster discussion, and
+    to encourage students to explore without fear of judgement for imperfect execution.
+</div>
   </li>
   <li class="card" style="--color:#ececec; --bg-color:#022F46">
-    <div class="icon"><i class="fa-solid fa-chart-column"></i></i></div>
-    <div class="title">Lorem ipsum</div>
-    <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis pretium euismod. Aenean elit sapien, varius quis ante sit amet, tincidunt finibus orci. Ut consectetur imperdiet quam, at ultrices mi rutrum ut. Sed semper justo quis nisl ornare interdum in ut ante. </div>
+    <div class="icon"><i class="fa-solid fa-chart-column"></i></div>
+    <div class="title">Encouraging Student Engagement</div>
+    <div class="content">SLS seeks to provide an opportunity for undergraduate and graduate students to better mingle both between one another and with faculty.</div>
   </li>
   <li class="card" style="--color:#ececec; --bg-color:#032437">
     <div class="icon"><i class="fa-solid fa-circle-star"></i></div>
-    <div class="title">Lorem ipsum</div>
-    <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis pretium euismod. Aenean elit sapien, varius quis ante sit amet, tincidunt finibus orci. Ut consectetur imperdiet quam, at ultrices mi rutrum ut. Sed semper justo quis nisl ornare interdum in ut ante. </div>
+    <div class="title">Reinforcing A Shared Love for Physics</div>
+    <div class="content">Being a student can be hard and stressful. SLS aims to provide students with a space to enjoy learning and thinking about physics outside of the
+stressors of actual course work.</div>
   </li>
 </ul>

@@ -134,11 +134,16 @@ button:hover {
 }
 </style>
 
+<br>
+
 <div class="row" style="column-count: 2;max-height: 1000px; break-inside: avoid;column-gap: 20px">
 <div class="column" style="width:70%;break-inside: avoid;align-content: center">
 The University of Utah Department of Physics and Astronomy hosts a student lectureship program, the Student Lecture Series (SLS), 
 with the intention of allowing students at all levels to practice their
-scientific communication skills and teaching skills.
+scientific communication skills and teaching skills. Lectures are scheduled every other Tuesday (see the calendar below).
+
+If you're interested in submitting a proposal for a talk, use the button on the right. There you can also find a directory of
+the current committee members and a list of previous talks given by students at the University of Utah.
 </div>
 <div class="column" style="width:30%; break-inside: avoid;align-content: center">
 <button onclick="window.location.href='https://forms.gle/DJqZRwL2nUoDDgqc9';">
@@ -146,6 +151,8 @@ scientific communication skills and teaching skills.
     </button>
 </div>
 </div>
+
+---
 
 # Talk Schedule
 
@@ -156,6 +163,7 @@ The SLS committee meets once monthly to select the speakers for the month follow
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_5bcefeecf034030f62660e05b25be644fdc40f5cd003453944074dc9c8e2f689%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
+<br>
 
 # About The Student Lecture Series
 

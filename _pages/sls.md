@@ -78,14 +78,16 @@ ul li.card .content{
 }
 </style>
 
-<div class="row" style="column-count: 2;max-height: 1000px; break-inside: avoid">
-<div class="column" style="width:80%;break-inside: avoid">
+<div class="row" style="column-count: 2;max-height: 1000px; break-inside: avoid;column-gap: 20px">
+<div class="column" style="width:70%;break-inside: avoid">
 The University of Utah Department of Physics and Astronomy hosts a student lectureship program, the Student Lecture Series (SLS), 
 with the intention of allowing students at all levels to practice their
 scientific communication skills and teaching skills.
 </div>
-<div class="column" style="width:20%; break-inside: avoid">
-    <h2><u>Submit a Proposal</u></h2>
+<div class="column" style="width:30%; break-inside: avoid">
+<button onclick="window.location.href='https://forms.gle/DJqZRwL2nUoDDgqc9';">
+      Submit a Proposal
+    </button>
 </div>
 </div>
 

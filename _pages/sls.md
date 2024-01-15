@@ -78,9 +78,22 @@ ul li.card .content{
 }
 </style>
 
-The University of Utah Department of Physics and Astronomy hosts a student lectureship program, the Student Lecture Series (SLS), 
+<div class="row">
+  <div class="column">The University of Utah Department of Physics and Astronomy hosts a student lectureship program, the Student Lecture Series (SLS), 
 with the intention of allowing students at all levels to practice their
 scientific communication skills and teaching skills.
+</div>
+  <div class="column">
+    <h2><u>Submit a Proposal</u></h2>
+</div>
+</div>
+
+# Talk Schedule
+
+The SLS is hosted on alternate Tuesday nights from 4:00pm to 5:00pm. You can find the selected lecturers and their proposed
+talks in the calendar below.
+
+The SLS committee meets once monthly to select the speakers for the month following the current one. Speakers are generally given at least 1 month notice before their speaking date.
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_5bcefeecf034030f62660e05b25be644fdc40f5cd003453944074dc9c8e2f689%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
@@ -91,6 +104,7 @@ The SLS is committed to providing opportunities for students at all stages of th
 through instruction. SLS lectures are held every other week throughout the fall and spring semesters and are intended to be accessible 
 to an general undergraduate audience. 
 
+## Our Commitments
 <ul>
   <li class="card" style="--color:#ececec; --bg-color:#E98B43">
     <div class="icon"><i class="fa-solid fa-house"></i></div>
@@ -123,3 +137,6 @@ lectures on topics which extend and improve the core curriculum of offered cours
 stressors of actual course work.</div>
   </li>
 </ul>
+<br>
+<br>
+

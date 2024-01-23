@@ -6,711 +6,800 @@
     <style>
 
 
-.wrapper{
-  width: 90%;
-  margin: 0 auto;
-  max-width: 80rem;
-}
 
-.cols{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+        .wrapper {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 80rem;
+        }
 
-.col{
-  width: calc(25% - 2rem);
-  margin: 1rem;
-  cursor: pointer;
-}
+        .cols {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
 
-.container{
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-	-webkit-perspective: 1000px;
-	        perspective: 1000px;
-}
+        .col {
+            width: calc(25% - 2rem);
+            margin: 1rem;
+            cursor: pointer;
+        }
 
-.front,
-.back{
-  background-size: cover;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
-  border-radius: 10px;
-	background-position: center;
-	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-	-o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-	-webkit-backface-visibility: hidden;
-	        backface-visibility: hidden;
-	text-align: center;
-	min-height: 280px;
-	height: auto;
-	border-radius: 10px;
-	color: #fff;
-	font-size: 1.5rem;
-}
+        .container {
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            -webkit-perspective: 1000px;
+            perspective: 1000px;
+        }
 
-.back{
-  background: #cedce7;
-  background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-  background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-  background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-}
-
-.front:after{
-	position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    content: '';
-    display: block;
-    opacity: .6;
-    background-color: #000;
-    -webkit-backface-visibility: hidden;
+        .front,
+        .back {
+            background-size: cover;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            background-position: center;
+            -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    border-radius: 10px;
-}
-.container:hover .front,
-.container:hover .back{
-    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-}
+            text-align: center;
+            min-height: 280px;
+            height: auto;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 1.5rem;
+        }
 
-.back{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
+        .back {
+            background: #cedce7;
+            background: -webkit-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+            background: -o-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+            background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+        }
 
-.inner{
-    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+        .front:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            content: '';
+            display: block;
+            opacity: .6;
+            background-color: #000;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 10px;
+        }
+
+        .container:hover .front,
+        .container:hover .back {
+            -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+        }
+
+        .back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .inner {
+            -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
             transform: translateY(-50%) translateZ(60px) scale(0.94);
-    top: 50%;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    padding: 2rem;
-    -webkit-box-sizing: border-box;
+            top: 50%;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            padding: 2rem;
+            -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    outline: 1px solid transparent;
-    -webkit-perspective: inherit;
+            outline: 1px solid transparent;
+            -webkit-perspective: inherit;
             perspective: inherit;
-    z-index: 2;
-}
+            z-index: 2;
+        }
 
-.container .back{
-    -webkit-transform: rotateY(180deg);
+        .container .back {
+            -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
+            -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-}
+        }
 
-.container .front{
-    -webkit-transform: rotateY(0deg);
+        .container .front {
+            -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
-    -webkit-transform-style: preserve-3d;
+            -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-}
+        }
 
-.container:hover .back{
-  -webkit-transform: rotateY(0deg);
-          transform: rotateY(0deg);
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-}
+        .container:hover .back {
+            -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+        }
 
-.container:hover .front{
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-}
+        .container:hover .front {
+            -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+        }
 
-.front .inner p{
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  position: relative;
-}
+        .front .inner p {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
 
-.front .inner p:after{
-  content: '';
-  width: 4rem;
-  height: 2px;
-  position: absolute;
-  background: #C6D4DF;
-  display: block;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  bottom: -.75rem;
-}
+        .front .inner p:after {
+            content: '';
+            width: 4rem;
+            height: 2px;
+            position: absolute;
+            background: #C6D4DF;
+            display: block;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            bottom: -.75rem;
+        }
 
-.front .inner span{
-  color: rgba(255,255,255,0.7);
-  font-family: 'Montserrat';
-  font-weight: 300;
-}
+        .front .inner span {
+            color: rgba(255, 255, 255, 0.7);
+            font-family: 'Montserrat';
+            font-weight: 300;
+        }
 
-@media screen and (max-width: 64rem){
-  .col{
-    width: calc(33.333333% - 2rem);
-  }
-}
+        @media screen and (max-width: 64rem) {
+            .col {
+                width: calc(33.333333% - 2rem);
+            }
+        }
 
-@media screen and (max-width: 48rem){
-  .col{
-    width: calc(50% - 2rem);
-  }
-}
+        @media screen and (max-width: 48rem) {
+            .col {
+                width: calc(50% - 2rem);
+            }
+        }
 
-@media screen and (max-width: 32rem){
-  .col{
-    width: 100%;
-    margin: 0 0 2rem 0;
-  }
-}
-@import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+        @media screen and (max-width: 32rem) {
+            .col {
+                width: 100%;
+                margin: 0 0 2rem 0;
+            }
+        }
 
-* {
-	box-sizing: border-box;
-}
+        @import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-h3 {
-	margin: 10px 0;
-}
+        * {
+            box-sizing: border-box;
+        }
 
-h6 {
-	margin: 5px 0;
-	text-transform: uppercase;
-}
+        h3 {
+            margin: 10px 0;
+        }
 
-p {
-	font-size: 14px;
-	line-height: 21px;
-}
+        h6 {
+            margin: 5px 0;
+            text-transform: uppercase;
+        }
 
-.card-container {
-	background-color: #231E39;
-	border-radius: 5px;
-	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-	color: #B3B8CD;
-	padding-top: 30px;
-	position: relative;
-	width: 250px;
-	max-width: 100%;
-	text-align: center;
-    align-items: center;
-    vertical-align: center;
-    background-size: cover;
-    background-position: center;
-}
+        p {
+            font-size: 14px;
+            line-height: 21px;
+        }
 
-.card-container .pro {
-	color: #231E39;
-	background-color: #FEBB0B;
-	border-radius: 3px;
-	font-size: 14px;
-	font-weight: bold;
-	padding: 3px 7px;
-	position: absolute;
-	top: 30px;
-	left: 30px;
-    align-items: center;
+        .card-container {
+            background-color: #231E39;
+            border-radius: 5px;
+            box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+            color: #B3B8CD;
+            padding-top: 30px;
+            position: relative;
+            width: 250px;
+            max-width: 100%;
+            text-align: center;
+            align-items: center;
+            vertical-align: center;
+            background-size: cover;
+            background-position: center;
+        }
 
-
-}
-
-.card-container .frame {
-  height: 200px;
-    width: 200px;
-  background: transparent no-repeat center;
-  background-size: cover;
-    border-radius: 50%;
-    background-position: 50% 50%;
-    margin: auto
-    
-}
+        .card-container .pro {
+            color: #231E39;
+            background-color: #FEBB0B;
+            border-radius: 3px;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 3px 7px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            align-items: center;
 
 
-.card-button .primary {
-	background-color: #03BFCB;
-	border: 1px solid #03BFCB;
-	border-radius: 3px;
-	color: #231E39;
-	font-family: Montserrat, sans-serif;
-	font-weight: 500;
-	padding: 10px 25px;
-}
+        }
 
-.card-button .primary.ghost {
-	background-color: transparent;
-	color: #02899C;
-}
+        .card-container .frame {
+            height: 200px;
+            width: 200px;
+            background: transparent no-repeat center;
+            background-size: cover;
+            border-radius: 50%;
+            background-position: 50% 50%;
+            margin: auto
 
-.skills {
-	background-color: #1F1A36;
-	text-align: left;
-	padding: 15px;
-	margin-top: 30px;
-}
-
-.skills ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.skills ul li {
-	border: 1px solid #2D2747;
-	border-radius: 2px;
-	display: inline-block;
-	font-size: 12px;
-	margin: 0 7px 7px 0;
-	padding: 7px;
-}
-
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
-
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
-}
-
-body{
-    margin: 0px;
-}
-ul{
-  width: min(100%, 60rem);
-  overflow: hidden;
-  margin-inline: auto;
-  padding-inline: clamp(1rem, 5vw, 4rem);
-  list-style: none;
-  perspective: 1000px;
-  display: grid;
-  row-gap: 0.5rem;
-}
-ul li.card{
-  position: relative;
-  padding-block: 1.5rem;
-  padding-inline: 2rem;
-  background-color: var(--bg-color);
-  background-image: linear-gradient(to right, rgb(0 0 0 / .15), transparent);
-  transform-style: preserve-3d;
-  color: var(--color);
-
-  display: grid;
-  grid-template: 'icon' 'title' 'content';
-  row-gap: 0.5rem;
-  column-gap: 2rem;
-}
-ul li.card::before, ul li.card::after {
-  --side-rotate: 60deg;
-  content: "";
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  transform-origin: calc(50% - (50% * var(--ry))) 50%  ;
-  transform: rotateY(calc(var(--side-rotate) * var(--ry)));
-  background-color: inherit;
-  background-image: linear-gradient(calc(90deg * var(--ry)), rgb(0 0 0 / .25), rgb(0 0 0 / .5));
-}
-ul li.card::before {--ry: -1; right: 100% }
-ul li.card::after {--ry: 1; left: 100% }
-
-ul li.card .icon {
-  grid-area: icon;
-  display: grid;
-  place-items: center;
-}
-ul li.card .icon i {
-  font-size: 2rem;
-}
-ul li.card .title{
-  grid-area: title;
-  font-size: 1.25rem;
-  font-weight: 700;
-  text-align: center;
-}
-ul li.card .content{
-  grid-area: content;
-}
-
-@media (min-width: 30rem){
-  ul li.card {
-    grid-template: 'icon title' 'icon content';
-    text-align: left;
-  }
-  ul li.card .title { text-align: left }
-}
-    * {
-  box-sizing: border-box;
-}
-
-:root {
-  --background: #E5FFB3;
-  --background-accent: #DBF8A3;
-  --background-accent-2: #BDE66E;
-  --light: #a22731;
-  --dark: #45181f;
-  --text: #FFFFFF;
-}
+        }
 
 
-button {
-  cursor: pointer;
-  outline: none;
-  border: none;
-  background-color: var(--light);
-  width: 400px;
-  height: 70px;
-  border-radius: 30px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--text);
-  background-size: 100% 100%;
-  box-shadow: 0 0 0 7px var(--light) inset;
-}
+        .card-button .primary {
+            background-color: #03BFCB;
+            border: 1px solid #03BFCB;
+            border-radius: 3px;
+            color: #231E39;
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            padding: 10px 25px;
+        }
 
-button:hover {
-  background-image: linear-gradient(
-    145deg,
-    transparent 10%,
-    var(--dark) 10% 20%,
-    transparent 20% 30%,
-    var(--dark) 30% 40%,
-    transparent 40% 50%,
-    var(--dark) 50% 60%,
-    transparent 60% 70%,
-    var(--dark) 70% 80%,
-    transparent 80% 90%,
-    var(--dark) 90% 100%
-  );
-  animation: background 3s linear infinite;
-}
+        .card-button .primary.ghost {
+            background-color: transparent;
+            color: #02899C;
+        }
 
-@keyframes background {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 400px 0;
-  }
-}
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.physics.utah.edu/wp-content/uploads/sites/65/2021/06/observatory-jeff-bagley.jpg");
+        .skills {
+            background-color: #1F1A36;
+            text-align: left;
+            padding: 15px;
+            margin-top: 30px;
+        }
 
-  /* Set a specific height */
-  height: 300px;
+        .skills ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
 
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+        .skills ul li {
+            border: 1px solid #2D2747;
+            border-radius: 2px;
+            display: inline-block;
+            font-size: 12px;
+            margin: 0 7px 7px 0;
+            padding: 7px;
+        }
 
-  align-content: center;
-}
+        footer {
+            background-color: #222;
+            color: #fff;
+            font-size: 14px;
+            bottom: 0;
+            position: fixed;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 999;
+        }
 
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  align-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
+        footer p {
+            margin: 10px 0;
+        }
 
-</style>
+        footer i {
+            color: red;
+        }
+
+        footer a {
+            color: #3c97bf;
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        ul {
+            width: min(100%, 60rem);
+            overflow: hidden;
+            margin-inline: auto;
+            padding-inline: clamp(1rem, 5vw, 4rem);
+            list-style: none;
+            perspective: 1000px;
+            display: grid;
+            row-gap: 0.5rem;
+        }
+
+        ul li.card {
+            position: relative;
+            padding-block: 1.5rem;
+            padding-inline: 2rem;
+            background-color: var(--bg-color);
+            background-image: linear-gradient(to right, rgb(0 0 0 / .15), transparent);
+            transform-style: preserve-3d;
+            color: var(--color);
+
+            display: grid;
+            grid-template: 'icon' 'title' 'content';
+            row-gap: 0.5rem;
+            column-gap: 2rem;
+        }
+
+        ul li.card::before, ul li.card::after {
+            --side-rotate: 60deg;
+            content: "";
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            transform-origin: calc(50% - (50% * var(--ry))) 50%;
+            transform: rotateY(calc(var(--side-rotate) * var(--ry)));
+            background-color: inherit;
+            background-image: linear-gradient(calc(90deg * var(--ry)), rgb(0 0 0 / .25), rgb(0 0 0 / .5));
+        }
+
+        ul li.card::before {
+            --ry: -1;
+            right: 100%
+        }
+
+        ul li.card::after {
+            --ry: 1;
+            left: 100%
+        }
+
+        ul li.card .icon {
+            grid-area: icon;
+            display: grid;
+            place-items: center;
+        }
+
+        ul li.card .icon i {
+            font-size: 2rem;
+        }
+
+        ul li.card .title {
+            grid-area: title;
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        ul li.card .content {
+            grid-area: content;
+        }
+
+        @media (min-width: 30rem) {
+            ul li.card {
+                grid-template: 'icon title' 'icon content';
+                text-align: left;
+            }
+
+            ul li.card .title {
+                text-align: left
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        :root {
+            --background: #E5FFB3;
+            --background-accent: #DBF8A3;
+            --background-accent-2: #BDE66E;
+            --light: #a22731;
+            --dark: #45181f;
+            --text: #FFFFFF;
+        }
+
+
+        button {
+            cursor: pointer;
+            outline: none;
+            border: none;
+            background-color: var(--light);
+            width: 400px;
+            height: 70px;
+            border-radius: 30px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text);
+            background-size: 100% 100%;
+            box-shadow: 0 0 0 7px var(--light) inset;
+        }
+
+        button:hover {
+            background-image: linear-gradient(
+                    145deg,
+                    transparent 10%,
+                    var(--dark) 10% 20%,
+                    transparent 20% 30%,
+                    var(--dark) 30% 40%,
+                    transparent 40% 50%,
+                    var(--dark) 50% 60%,
+                    transparent 60% 70%,
+                    var(--dark) 70% 80%,
+                    transparent 80% 90%,
+                    var(--dark) 90% 100%
+            );
+            animation: background 3s linear infinite;
+        }
+
+        @keyframes background {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 400px 0;
+            }
+        }
+
+        .hero-image {
+            /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.physics.utah.edu/wp-content/uploads/sites/65/2021/06/observatory-jeff-bagley.jpg");
+
+            /* Set a specific height */
+            height: 300px;
+
+            /* Position and center the image to scale nicely on all screens */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+            align-content: center;
+        }
+
+        /* Place text in the middle of the image */
+        .hero-text {
+            text-align: center;
+            align-content: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
 <div class="hero-image">
-  <div class="hero-text">
-    <h1 style="text-align: center">University of Utah Department of Physics and Astronomy Student Lecture Series</h1>
-      <br>
-      <button onclick="window.location.href='https://forms.gle/DJqZRwL2nUoDDgqc9'">Submit a Proposal</button>
-  </div>
+    <div class="hero-text">
+        <h1 style="text-align: center">University of Utah Department of Physics and Astronomy Student Lecture
+            Series</h1>
+        <br>
+        <button onclick="window.location.href='https://forms.gle/DJqZRwL2nUoDDgqc9'">Submit a Proposal</button>
+    </div>
 </div>
 <div class="row" style="column-count: 2;column-gap: 25px; margin-right: 0px; margin-left:45px; margin-top: 30px">
     <div class="column" style="break-inside: avoid">
 
-            <h1 style="font-weight: bolder"><u>P&A Student Lecture Series</u></h1>
-    <p>
-            The University of Utah Department of Physics and Astronomy hosts a student lectureship program, the Student Lecture Series (SLS),
-with the intention of allowing students at all levels to practice their
-scientific communication skills and teaching skills. Lectures are scheduled every other Tuesday (see the calendar below).
+        <h1 style="font-weight: bolder"><u>P&A Student Lecture Series</u></h1>
+        <p>
+            The University of Utah Department of Physics and Astronomy hosts a student lectureship program, the Student
+            Lecture Series (SLS),
+            with the intention of allowing students at all levels to practice their
+            scientific communication skills and teaching skills. Lectures are scheduled every other Tuesday (see the
+            calendar below).
 
-If you're interested in submitting a proposal for a talk, use the button above. There you can also find a directory of
-the current committee members and a list of previous talks given by students at the University of Utah.
-    </p>
-        The SLS is hosted on alternate Tuesday nights from 4:00pm to 5:00pm. You can find the selected lecturers and their proposed
-talks in the calendar below.
+            If you're interested in submitting a proposal for a talk, use the button above. There you can also find a
+            directory of
+            the current committee members and a list of previous talks given by students at the University of Utah.
+        </p>
+        The SLS is hosted on alternate Tuesday nights from 4:00pm to 5:00pm. You can find the selected lecturers and
+        their proposed
+        talks in the calendar below.
 
-The SLS committee meets once monthly to select the speakers for the month following the current one. Speakers are generally given at least 1 month notice before their speaking date.
+        The SLS committee meets once monthly to select the speakers for the month following the current one. Speakers
+        are generally given at least 1 month notice before their speaking date.
 
         <br>
         <br>
-<iframe src="https://embed.styledcalendar.com/#1e36LVO801Mninu2o0VC" title="Styled Calendar" class="styled-calendar-container" style="width: 100%; border: none;" data-cy="calendar-embed-iframe"></iframe>
-<script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+        <iframe src="https://embed.styledcalendar.com/#1e36LVO801Mninu2o0VC" title="Styled Calendar"
+                class="styled-calendar-container" style="width: 100%; border: none;"
+                data-cy="calendar-embed-iframe"></iframe>
+        <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
     </div>
     <div class="column" style="margin-right: 30px">
-                <ul>
-  <li class="card" style="--color:#ececec; --bg-color:#E98B43">
-    <div class="icon"><i class="fa-solid fa-house"></i></div>
-    <div class="title">Engaged Pedagogy</div>
-    <div class="content">The SLS seeks to highlight students who place an emphasis on engaged, innovative, and effective pedagogical methods.</div>
-  </li>
-  <li class="card" style="--color:#ececec; --bg-color:#C23D2A">
-    <div class="icon"><i class="fa-solid fa-gear"></i></div>
-    <div class="title">Educational Value</div>
-    <div class="content">SLS Lectures are selected particularly to highlight topics and ideas which are applicable, interesting, and engaging for students. We seek to present
-lectures on topics which extend and improve the core curriculum of offered course work.</div>
-  </li>
-  <li class="card" style="--color:#ececec; --bg-color:#842C2A">
-    <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-    <div class="title">Learning First Culture</div>
-    <div class="content">SLS is committed to promoting a culture of curiosity and collaboration within the P&A community. Student instructors are not experts in
-    those topics which they teach and we therefore encourage SLS lectures to be a space to acknowledge limitations in our knowledge, to foster discussion, and
-    to encourage students to explore without fear of judgement for imperfect execution.
-</div>
-  </li>
-  <li class="card" style="--color:#ececec; --bg-color:#022F46">
-    <div class="icon"><i class="fa-solid fa-chart-column"></i></div>
-    <div class="title">Encouraging Student Engagement</div>
-    <div class="content">SLS seeks to provide an opportunity for undergraduate and graduate students to better mingle both between one another and with faculty.</div>
-  </li>
-  <li class="card" style="--color:#ececec; --bg-color:#032437">
-    <div class="icon"><i class="fa-solid fa-circle-star"></i></div>
-    <div class="title">Reinforcing A Shared Love for Physics</div>
-    <div class="content">Being a student can be hard and stressful. SLS aims to provide students with a space to enjoy learning and thinking about physics outside of the
-stressors of actual course work.</div>
-  </li>
-</ul>
-<br>
-<br>
+        <ul>
+            <li class="card" style="--color:#ececec; --bg-color:#E98B43">
+                <div class="icon"><i class="fa-solid fa-house"></i></div>
+                <div class="title">Engaged Pedagogy</div>
+                <div class="content">The SLS seeks to highlight students who place an emphasis on engaged, innovative,
+                    and effective pedagogical methods.
+                </div>
+            </li>
+            <li class="card" style="--color:#ececec; --bg-color:#C23D2A">
+                <div class="icon"><i class="fa-solid fa-gear"></i></div>
+                <div class="title">Educational Value</div>
+                <div class="content">SLS Lectures are selected particularly to highlight topics and ideas which are
+                    applicable, interesting, and engaging for students. We seek to present
+                    lectures on topics which extend and improve the core curriculum of offered course work.
+                </div>
+            </li>
+            <li class="card" style="--color:#ececec; --bg-color:#842C2A">
+                <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="title">Learning First Culture</div>
+                <div class="content">SLS is committed to promoting a culture of curiosity and collaboration within the
+                    P&A community. Student instructors are not experts in
+                    those topics which they teach and we therefore encourage SLS lectures to be a space to acknowledge
+                    limitations in our knowledge, to foster discussion, and
+                    to encourage students to explore without fear of judgement for imperfect execution.
+                </div>
+            </li>
+            <li class="card" style="--color:#ececec; --bg-color:#022F46">
+                <div class="icon"><i class="fa-solid fa-chart-column"></i></div>
+                <div class="title">Encouraging Student Engagement</div>
+                <div class="content">SLS seeks to provide an opportunity for undergraduate and graduate students to
+                    better mingle both between one another and with faculty.
+                </div>
+            </li>
+            <li class="card" style="--color:#ececec; --bg-color:#032437">
+                <div class="icon"><i class="fa-solid fa-circle-star"></i></div>
+                <div class="title">Reinforcing A Shared Love for Physics</div>
+                <div class="content">Being a student can be hard and stressful. SLS aims to provide students with a
+                    space to enjoy learning and thinking about physics outside of the
+                    stressors of actual course work.
+                </div>
+            </li>
+        </ul>
+        <br>
+        <br>
     </div>
 </div>
 <hr>
 <div style="margin: 5px">
-<h2 style="text-align: center">SLS Committee Details / Members</h2>
+    <h2 style="text-align: center">SLS Committee Details / Members</h2>
     <div class="row" style="column-count: 5; margin: 15px; column-gap: 5px">
-<div class="card-container" style="break-inside: avoid">
-	<div class="frame" style="background-image: url('https://eliza-diggins.github.io/images/profile.png'); width: 200px; height: 200px; justify-content: center" alt="user">
-            </div>
-	<h3>Eliza Diggins</h3>
-	<h6>Undergraduate, Chair</h6>
-	<p>eliza.diggins@utah.edu</p>
-	</div>
-    <div class="card-container" style="break-inside: avoid">
-	<div class="frame" style="background-image: url('https://tse4.mm.bing.net/th?id=OIP.ybB2a0HimX1I-ybBY4pOPwHaHa&pid=Api'); width: 200px; height: 200px; justify-content: center" alt="user">
-            </div>
-	<h3>Anne Duerr</h3>
-	<h6>Graduate</h6>
-	<p>a.duerr@utah.edu</p>
-	</div>
-            <div class="card-container" style="break-inside: avoid">
-	<div class="frame" style="background-image: url('https://d182hggomw8pjd.cloudfront.net/wp-content/uploads/sites/12/2022/08/04124108/Amaya-Sinha_WEB-793x1024.jpg'); width: 200px; height: 200px; justify-content: center" alt="user">
-	    </div>
-        <h3>Amaya Sinha</h3>
-	<h6>Graduate</h6>
-	<p>u1363702@utah.edu</p>
-	</div>
-            <div class="card-container" style="break-inside: avoid">
-	<div class="frame" style="background-image: url('/images/josh.jpg'); width: 200px; height: 200px">
-            </div>
-	<h3>Josh Hill</h3>
-	<h6>Undergraduate</h6>
-	<p>joshua.hill@astro.utah.edu</p>
-	</div>
         <div class="card-container" style="break-inside: avoid">
-	<div class="frame" style="background-image: url('https://osuper.science.oregonstate.edu/sites/osuper.science.oregonstate.edu/files/profile/_DSF2226.jpg'); width: 200px; height: 200px; justify-content: center" alt="user">
+            <div class="frame"
+                 style="background-image: url('https://eliza-diggins.github.io/images/profile.png'); width: 200px; height: 200px; justify-content: center"
+                 alt="user">
+            </div>
+            <h3>Eliza Diggins</h3>
+            <h6>Undergraduate, Chair</h6>
+            <p>eliza.diggins@utah.edu</p>
+        </div>
+        <div class="card-container" style="break-inside: avoid">
+            <div class="frame"
+                 style="background-image: url('https://tse4.mm.bing.net/th?id=OIP.ybB2a0HimX1I-ybBY4pOPwHaHa&pid=Api'); width: 200px; height: 200px; justify-content: center"
+                 alt="user">
+            </div>
+            <h3>Anne Duerr</h3>
+            <h6>Graduate</h6>
+            <p>a.duerr@utah.edu</p>
+        </div>
+        <div class="card-container" style="break-inside: avoid">
+            <div class="frame"
+                 style="background-image: url('https://d182hggomw8pjd.cloudfront.net/wp-content/uploads/sites/12/2022/08/04124108/Amaya-Sinha_WEB-793x1024.jpg'); width: 200px; height: 200px; justify-content: center"
+                 alt="user">
+            </div>
+            <h3>Amaya Sinha</h3>
+            <h6>Graduate</h6>
+            <p>u1363702@utah.edu</p>
+        </div>
+        <div class="card-container" style="break-inside: avoid">
+            <div class="frame" style="background-image: url('/images/josh.jpg'); width: 200px; height: 200px">
+            </div>
+            <h3>Josh Hill</h3>
+            <h6>Undergraduate</h6>
+            <p>joshua.hill@astro.utah.edu</p>
+        </div>
+        <div class="card-container" style="break-inside: avoid">
+            <div class="frame"
+                 style="background-image: url('https://osuper.science.oregonstate.edu/sites/osuper.science.oregonstate.edu/files/profile/_DSF2226.jpg'); width: 200px; height: 200px; justify-content: center"
+                 alt="user">
+            </div>
+            <h3>Kelby Hahn</h3>
+            <h6>Faculty Liaison</h6>
+            <p>kelby.hahn@utah.edu</p>
+        </div>
     </div>
-	<h3>Kelby Hahn</h3>
-	<h6>Faculty Liaison</h6>
-	<p>kelby.hahn@utah.edu</p>
-	</div>
 </div>
-    </div>
 </div>
 <br>
 <hr>
 </div>
 <div class="wrapper">
-  <h1>Frequently Asked Questions</h1>
-  <div class="cols">
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://apod.nasa.gov/apod/image/2401/IC348_webb_960.jpg)">
-						<div class="inner">
-							<p>Who will I be lecturing to?</p>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-						  <p>Lectures are open to the entire P & A community, including faculty. This doesn't mean to need to be
-                          an expert! You should be comfortable with the subject you're teaching, but no one expects you to be
-                          the foremost expert in the room.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://apod.nasa.gov/apod/image/2401/DragonAurora_Zhang_960.jpg)">
-						<div class="inner">
-							<p>Am I allowed to give a lecture?</p>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>If you're a student (grad or undergrad), a post bach, a soon to be student, or a post-doc then the answer is YES! The only people who can't
+    <h1>Frequently Asked Questions</h1>
+    <div class="cols">
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+                <div class="front"
+                     style="background-image: url(https://apod.nasa.gov/apod/image/2401/IC348_webb_960.jpg)">
+                    <div class="inner">
+                        <p>Who will I be lecturing to?</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <p>Lectures are open to the entire P & A community, including faculty. This doesn't mean to need
+                            to be
+                            an expert! You should be comfortable with the subject you're teaching, but no one expects
+                            you to be
+                            the foremost expert in the room.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+                <div class="front"
+                     style="background-image: url(https://apod.nasa.gov/apod/image/2401/DragonAurora_Zhang_960.jpg)">
+                    <div class="inner">
+                        <p>Am I allowed to give a lecture?</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <p>If you're a student (grad or undergrad), a post bach, a soon to be student, or a post-doc
+                            then the answer is YES! The only people who can't
                             give the lectures are faculty (because they already get to do it for work).</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://apod.nasa.gov/apod/image/2401/2024_quadrantids_240104_med_bsyeom1024.jpg)">
-						<div class="inner">
-							<p>Can I Talk About My Research?</p>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Maybe. We want these talks to be <u>informative</u> and <u>useful</u>. If your research is about something that
-                            the "average" undergraduate student could find useful, then yes absolutely. If your research would be incomprehensible to a
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+                <div class="front"
+                     style="background-image: url(https://apod.nasa.gov/apod/image/2401/2024_quadrantids_240104_med_bsyeom1024.jpg)">
+                    <div class="inner">
+                        <p>Can I Talk About My Research?</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <p>Maybe. We want these talks to be <u>informative</u> and <u>useful</u>. If your research is
+                            about something that
+                            the "average" undergraduate student could find useful, then yes absolutely. If your research
+                            would be incomprehensible to a
                             freshman in the department, maybe not.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://apod.nasa.gov/apod/image/2401/Sh2_155_4K_5Mb1024.jpg)">
-						<div class="inner">
-							<p>What is the committee looking for?</p>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>We want to see 4 components: <u>Accessibility</u> (how well can a freshman understand it?),
-                            <u>Applicability</u> (how useful is it to a general physicist?), <u>Innovative</u> (are you trying to teach in an interesting way),
-                            and <u>Originality</u> (do students see this in their core classes? What makes yours better?)</p>
-						</div>
-					</div>
-				</div>
-			</div>
-      <div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_1436.jpg)">
-						<div class="inner">
-							<p>Where are the lectures?</p>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p> TBD - One of the JFB lecture halls.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://apod.nasa.gov/apod/image/1605/EtaCore_Ebersole_960.jpg)">
-						<div class="inner">
-							<p>I want to do a demonstration! What do I have to do?</p>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>We LOVE demonstrations! If you'd like to do a demo, please indicate so in your proposal. If selected, we'll be in touch
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+                <div class="front"
+                     style="background-image: url(https://apod.nasa.gov/apod/image/2401/Sh2_155_4K_5Mb1024.jpg)">
+                    <div class="inner">
+                        <p>What is the committee looking for?</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <p>We want to see 4 components: <u>Accessibility</u> (how well can a freshman understand it?),
+                            <u>Applicability</u> (how useful is it to a general physicist?), <u>Innovative</u> (are you
+                            trying to teach in an interesting way),
+                            and <u>Originality</u> (do students see this in their core classes? What makes yours
+                            better?)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+                <div class="front"
+                     style="background-image: url(https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_1436.jpg)">
+                    <div class="inner">
+                        <p>Where are the lectures?</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <p> TBD - One of the JFB lecture halls.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+                <div class="front"
+                     style="background-image: url(https://apod.nasa.gov/apod/image/1605/EtaCore_Ebersole_960.jpg)">
+                    <div class="inner">
+                        <p>I want to do a demonstration! What do I have to do?</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <p>We LOVE demonstrations! If you'd like to do a demo, please indicate so in your proposal. If
+                            selected, we'll be in touch
                             to help facilitate making that demonstration come to life.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://apod.nasa.gov/apod/image/1605/PelicanIC5067close_colombari_q100_watermark1024.jpg)">
-						<div class="inner">
-							<p>Are lectures recorded?</p>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Not yet. We are working on making this happen! </p>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://apod.nasa.gov/apod/image/1604/OrionRedBlue_Lindemann_960.jpg)">
-						<div class="inner">
-							<p>When are the lectures</p>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Lectures are hosted on alternating Tuesdays from 4:00pm - 5:00pm.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-                  <div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://apod.nasa.gov/apod/image/1604/OrionRedBlue_Lindemann_960.jpg)">
-						<div class="inner">
-							<p>Can this go on my CV?</p>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Absolutely!</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
- </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+                <div class="front"
+                     style="background-image: url(https://apod.nasa.gov/apod/image/1605/PelicanIC5067close_colombari_q100_watermark1024.jpg)">
+                    <div class="inner">
+                        <p>Are lectures recorded?</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <p>Not yet. We are working on making this happen! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+                <div class="front"
+                     style="background-image: url(https://apod.nasa.gov/apod/image/1604/OrionRedBlue_Lindemann_960.jpg)">
+                    <div class="inner">
+                        <p>When are the lectures</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <p>Lectures are hosted on alternating Tuesdays from 4:00pm - 5:00pm.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+                <div class="front"
+                     style="background-image: url(https://apod.nasa.gov/apod/image/1604/OrionRedBlue_Lindemann_960.jpg)">
+                    <div class="inner">
+                        <p>Can this go on my CV?</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="inner">
+                        <p>Absolutely!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .copy-right-sec{
+	padding: 1.8rem;
+    background: #000000;
+    color: #fff;
+    text-align: center;
+}
+    .copy-right-sec a{
+	color: crimson;
+    font-weight: 500;
+}
+a{
+  text-decoration:none;
+}
+
+</style>
 </body>
+		<section id="copy-right">
+			<div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>
+				© 2024 <a href="https://eliza-diggins.github.io/">Written by Eliza Diggins</a>
+
+
+			</div>
+
+		</section>
 </html>
 
 

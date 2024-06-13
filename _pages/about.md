@@ -50,19 +50,45 @@ customjs:
 }
 </style>
 
-   I'm a theoretical astrophysicist and mathematician at the University of Utah. My research is shared between the Department of Physics
-and Astronomy, where I study galaxy cluster dynamics and gravitational theory; and the School of Dentistry, where I work on mathematical models
-of trade-mediated pathogens in complex global trade networks. 
+<p>Hello and welcome to my website!</p>
+   
+<p>
+My name is Eliza Diggins; I'm a theoretical astrophysicist and applied mathematician at the University of Utah. My research 
+is split between the Dept. of Physics and Astronomy where I study the dynamics and evolution of extragalactic systems 
+and the School of Dentistry, where I study the epidemiology of autoimmune disease. Within academia, my research interests
+are supplemented by advocacy for better pedagogy and inclusivity in physics and by passionate engagement with the public through 
+science communication objectives. Out of the office, I am also deeply
+involved in social work and activism on behalf of the LGBTQIA+ and neurodiverse communities. 
+</p>
+<p>
+On this website, you can find information and resources regarding all of the various components of my work.</p>
 
 
+Science
+=======
 
-Research Interests
-==================
+
+Research Philosophy
+-------------------
+
+I believe in the inherent importance of scientific progress for its own sake and for the sake of the human endeavour. I am staunchly against
+isolationism in science and believe that science in both its practice and its implementation should be a diverse and inherently human affair. 
+Diversity in science is important to me and, in my opinion, one of the most important things we can use to improve the productivity, communicativity, and impact of
+science on all scales. 
+
+In my research, I strive to be radically skeptical and challenge paradigms for the sake of forcing them to stand up to challenge. It is my philosophy that
+scientific skepticism drives the division between (as Kuhn would say) "normal science," and paradigm shifting research. In my research, I allow normal science, as done by myself and by others, to
+drive my skeptical assessment of the paradigms we exist within. I do not believe that normal science is esoteric or unimportant, but instead that (with as much 
+skepticism as can be mustered) normal science should be seen as a probe by which to methodologically challenge every aspect of every paradigm seeking faults which might lead to
+new science.
 
 As a researcher, I am deeply committed to the philosophy of interdisciplinary and holistic exploration of science in all its
 forms. I am, first and foremost, a theoretical astrophysicist, but I make time to explore areas of interest in other disciplines, particularly
 epidemiology and applied mathematics. I am fascinated by the methodological, cultural, and philosophical cross-over between
 these various fields of scientific inquiry and the different ways in which each informs my thinking on research questions in the others.
+
+Research Interests
+------------------
 
 In the menus below, you can find some details on my research interests and current projects in each of these areas.
 
@@ -84,17 +110,20 @@ Modified gravity theories are known to break down in galaxy cluster regimes... W
 </p>
 <p>
 To pursue this research, I work as a member of the <a href="https://www.astro.utah.edu/~wik/">X-ray Astrophysics group at the University of Utah</a> (led by Dr. Daniel R. Wik). I focus on analytic, semi-analytic, and numerical
-models of phenomena in galaxy clusters in both standard gravitational paradigms and in modified paradigms. In doing this research, I have contributed to our theoretical
-understanding of the dynamics of both modified gravity theories and galaxy clusters in general. I am also a very active software developer for numerical approaches to these problems. See
-my software page for a description of my code projects and those that I make heavy use of!</p>
-<h2>
+models of phenomena in galaxy clusters in both standard gravitational paradigms and in modified paradigms. In my role as a theorist, I have spend considerable
+time in recent years using the unique dynamics of galaxy clusters to constrain theories of modified gravity; however, most recently, my attention
+has shifted somewhat to the unique micro-processes that influence the intra-cluster gas dynamics of these systems. Much of this work relies
+on numerical simulations (both my own and those from the wider community like the Illustris-TNG Simulations). I am also involved
+in the eROSITA all-sky survey mission and have developed software for the analysis of sources from that mission.</p>
+<h3>
 Things I'm Thinking About Right Now
-</h2>
+</h3>
 <ul>
 <li> MOND gravity theories are really successful in galaxies... Why do they suck in galaxy clusters? Why do they succeed in galaxies? </li>
 <li> How can we improve the fidelity of our simulations of galaxy clusters to those observed in the real universe? </li>
 <li> What drives the cosmological tensions we observe in galaxy clusters? </li>
-<li> How does the microphysics of the ICM (turbulence, viscosity, etc.) impact or theoretical predictions? </li>
+<li> How does the micro-physics of the ICM (turbulence, viscosity, etc.) impact or theoretical predictions? </li>
+<li> How do assumptions used in the analysis process influence bias in hydrostatic mass inference?</li>
 </ul>
 
 </div>
@@ -102,8 +131,8 @@ Things I'm Thinking About Right Now
 <br>
 <div><button class="accordion"> &#129440; <b>Epidemiology</b></button>
 <div class="panel">
-  <p>As an epidemiologist, I'm most interested in the applications of mathematical modeling to our predictions about emergent pathogens. With the increasing prevailance
-of globalization in various regimes of our daily lives, pathogen emergence and rapid transmission is an ever increasing threat. To confront it, one needs to have a stable
+  <p>As an epidemiologist, I'm most interested in the applications of mathematical modeling to our predictions about emergent pathogens. With the increasing
+globalization in various regimes of our daily lives, pathogen emergence and rapid transmission is an ever increasing threat. To confront it, one needs to have a stable
 understanding of the underlying dynamics of the threat. Unfortunately, COVID-19 illustrates that we still have a long way to come in this respect.</p>
 
 <p>
@@ -111,14 +140,23 @@ At present, I'm working as part of the <a href="https://dentistry.utah.edu/resea
 emergent, trade-mediated pathogens. These pathogens, which could range from the relatively common <i>Salmonella enteritidis</i> to yet unknown entities of disease, are characterized by their mobility 
 in the international food supply. My research interests are largely focused on asking questions regarding the epidemiological consequences of an emergent pathogen with the infectious potential of
 a COVID-19 like epidemic. I work on designing mathematical models for the prediction and characterization of these threats as well as building early warning algorithms for these
-emergent events.
+emergent events. Our lab is uniquely focused on the intersections of healthcare access, infectious disease, and autoimmunity; as such, I am also active
+in constructing mathematical models directed and improving our understanding of the interactions between these aspects of our research.
 </p>
 
 <p>
-In addition to my mathematical role in the lab, I also work on data science related projects. With the availability of massive, global, and diverse healthcare datasets, our lab focuses
-much of its time on characterizing relationships between rare diseases, autoimmune disorders, and emergent pathogens. One of the most interesting questions we are working on is characterizing the capacity of
-pathogenic entities to induce autoimmune responses in vulnerable patients.
+In addition to my mathematical role in the lab, I am also the science lead of the Weller Lab Data Science Group. This group is focused
+in the use of unparalleled EHR databases to better understand and model the dynamics and relationships between auto-immune disease and
+infectious disease.
 </p>
+<h3>
+Things I'm Thinking About Right Now
+</h3>
+<ul>
+<li> Can emergent infectious diseases trigger auto-immune disease during acute infections? </li>
+<li> Why are autoimmune diseases predominantly found to affect female patients?</li>
+<li> What testing procedures can improve overall patient care for those with rare / stigmatized diseases?</li>
+</ul>
 </div>
 </div>
 <br>
@@ -152,105 +190,24 @@ a more standard algorithm (while not ground breaking) would be extremely helpful
 </div>
 <br>
 
-Research Philosophy
-===================
-
-I believe in the inherent importance of scientific progress for its own sake and for the sake of the human endeavour. I am staunchly against
-isolationism in science and believe that science in both its practice and its implementation should be a diverse and inherently human affair. 
-Diversity in science is important to me and, in my opinion, one of the most important things we can use to improve the productivity, communicativity, and impact of
-science on all scales. 
-
-In my research, I strive to be radically skeptical and challenge paradigms for the sake of forcing them to stand up to challenge. It is my philosophy that
-scientific skepticism drives the division between (as Kuhn would say) "normal science," and paradigm shifting research. In my research, I allow normal science, as done by myself and by others, to
-drive my skeptical assessment of the paradigms we exist within. I do not believe that normal science is esoteric or unimportant, but instead that (with as much 
-skepticism as can be mustered) normal science should be seen as a probe by which to methodologically challenege every aspect of every paradigm seeking faults which might lead to
-new science.
-
 More Than a Scientist
-=====================
+---------------------
 
-Whenever I meet a new person and they ask me what I do, the interaction typically goes something like this: "What do you do for a living?" they'll say. I respond with "Oh, i'm a scientist." Then it's "Wow! What kind of scientist?" 
-At this point, I say, "I'm an astrophysicist," and the reaction is always some variation of "wow, you must be so smart," or "I could never do that," or the 
-ever annoying "wow, a transgender scientist! That's a big accomplishment!"
+I firmly believe that the fundamental research of scientists is a critical component of the human endeavour.
+Nonetheless, scientific fields (particularly physics) remain a space largely occupied by those with the economic, social, and educational
+freedom to pursue abstract and esoteric knowledge for its own sake. Implicit in that reality is the universal conception that scientists are
+(all else being equal) worthy of respect and admiration solely on behalf of their intellect. 
 
-<p>
-The truth is that my science, despite being very dear to me, is also shrouded in a cultural perception of science that I wholeheartedly reject. I despise the notion that scientists are
-in some way "smarter" than other people in other roles and I bristle against the complacency which that perceptions give some members of the scientific
-community. My ability to write down fancy squiggles on a page or write incomprehensible software doesn't make me or anyone else like me "superior" or "brilliant," it just makes us talented what we do.
-</p>
-<p>
-All that having been said, I'm personally committed to the philosophy of being more than a scientist. It's important to me that others see the very normal person behind the scientific facade. As such, below are some cards about decidedly non-scientific (or at least not science I know much about) things that are important to me and
-which I want to share.
-</p>
+As a transgender woman (and as an autistic one), I feel a strong sense of duty to utilize the social capital that comes with 
+my intellect to advocate for others like me who have not been as fortunate. Within academia, this component of my ethos has driven
+my interest in public outreach, diversity and inclusion education, and inclusive pedagogical methods in the classroom.
 
-<link rel="stylesheet" href="/assets/css/cards.css">
-<section class="farticles">
-  <farticle>
-    <div class="farticle-wrapper">
-      <figure>
-        <img src="/images/620-1.jpg" alt="" >
-      </figure>
-      <div class="farticle-body">
-        <h2>Social Work and Community Activism</h2>
-        <p>
-          My identity as a trans person is a complicated aspect of my life, but one which is extremely important to me. I've been
-            very fortunate to have had the opportunities I've had; many people in my community are not as fortunate. For that reason, I'm very
-            focused on doing everything I can to help other people like me who are facing hard times or going through personal crises. On this page, I talk about what
-            I'm doing to give back to the LGBTQ community and what you can do to make a difference for marginalized people in your communities.
-        </p>
-        <a href="https://eliza-diggins.github.io/service.html" class="read-more">
-          Read more <span class="sr-only">about this is some title</span>
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-          </svg>
-        </a>
-      </div>
-    </div>
-  </farticle>
-  <farticle>
+Outside of academia, I have found great purpose in advocating for my communities and for those who experience the same intersectional
+difficulties that I do. I am the facilitator (and intern) of a peer support group for transgender adults hosted by [Encircle](https://www.encircletogether.org)'s Salt Lake City Home.
+Due to the unique challenges faced by this community, I have dedicated significant time to pursuing positions of responsibility and advocacy within the queer
+community of Utah; to better equip community members, organizations, and LGBTQ+ individuals with the resources and support they need to succeed.
 
-<div class="farticle-wrapper">
-<figure>
-<img src="/images/LGBTIQA-Illustration.png" alt="" />
-</figure>
-<div class="farticle-body">
-<h2>Diversity in Higher Education</h2>
-<p>
-Diversity matters, everywhere. Academia has a tendency to get stuck in the echo-chamber routine where the same people with the same backgrounds and the same approach are the only ones actually
-    getting to participate in the endeavour of human knowledge building. This in turn leads to people getting left out of our intellectual traditions and our intellectual traditions missing out on the
-    contributions of those people. On this page, you can read some of my experiences and thoughts on diversity in higher education.
-</p>
-<a href="https://eliza-diggins.github.io/diversity.html" class="read-more">
-Read more <span class="sr-only">about this is some title</span>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-<path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-</svg>
-</a>
-</div>
-</div>
-  </farticle>
-  <farticle>
-<div class="farticle-wrapper">
-<figure>
-<img src="/images/1-snapping-turtle.jpg" alt="" />
-</figure>
-<div class="farticle-body">
-<h2>Eliza's Collection of Fun Facts</h2>
-<p>
-What good is a website if you can't use it to indiscriminately info-dump about all of your favorite things? On this page, I make blog style posts about
-    random things that I think are interesting. Sometimes its science, sometimes its history, and sometimes it's just weird. Come for the science, stay for the mildly unhinged
-    things you can talk about at dinner parties... Assuming you don't want to be invited back.
-</p>
-<a href="https://eliza-diggins.github.io/fun_facts/" class="read-more">
-Read more <span class="sr-only">about this is some title</span>
-<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-<path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-</svg>
-</a>
-</div>
-</div>
-  </farticle>
-</section>
+
 
 <script type='text/javascript' src='/assets/js/accordian.js'>
 

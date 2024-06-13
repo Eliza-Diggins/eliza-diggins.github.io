@@ -50,6 +50,8 @@ customjs:
 }
 </style>
 
+<img src="/files/Trish%20Griffee%20Photography-7325.jpg" alt="Italian Trulli">
+
 <p>Hello and welcome to my website!</p>
    
 <p>

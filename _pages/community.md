@@ -24,10 +24,14 @@ Encircle Utah
 ![Static Badge](https://img.shields.io/badge/Encircle_Utah-Calendar-pink?style=for-the-badge&labelColor=lightblue&link=https%3A%2F%2Fencircletogether.org%2Fslc%2Fcalendar)
 
 
-Encircle provides community support resources to LGBTQ youth and adults through its "homes" throughout Utah, which host
-events, peer support networks, and other critical support infrastructure for the LGBTQ community. 
+[Encircle](https://www.encircletogether.org) is a community resource and family center for the LGBTQIA+ community of Utah and
+its surrounding states. The Encircle homes (located throughout the state) are dedicated to providing beautiful, fulfilling, and fundamentally queer
+space for the LGBTQIA community to call home.
 
-I am the facilitator of the transgender adult friendship circle at the Salt Lake City Encircle home. The mission
+I act as the <i>Process Intern</i> at the Salt Lake City home, where I focus on improving the services we
+provide in order to ensure that Encircle guests receive the best, most inclusive, and most fulfilling services possible.
+
+I am also the facilitator of the transgender adult friendship circle at the Salt Lake City Encircle home. The mission
 of friendship circles at Encircle is to provide marginalized guests with opportunities to build community, friendships, and 
 get peer-to-peer support in a safe environment. I, along with my amazing team of co-facilitators, run two transgender support groups on 
 Friday nights from 6:30pm to 8:00pm. We provide a smaller support group for those guests who might struggle in a larger group setting

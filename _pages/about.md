@@ -193,6 +193,8 @@ a more standard algorithm (while not ground breaking) would be extremely helpful
 More Than a Scientist
 ---------------------
 
+![Static Badge](https://img.shields.io/badge/Encircle_Utah-Donate-pink?style=for-the-badge&labelColor=lightblue&link=https%3A%2F%2Fencircletogether.org%2Fcommunitycircle)
+
 I firmly believe that the fundamental research of scientists is a critical component of the human endeavour.
 Nonetheless, scientific fields (particularly physics) remain a space largely occupied by those with the economic, social, and educational
 freedom to pursue abstract and esoteric knowledge for its own sake. Implicit in that reality is the universal conception that scientists are
@@ -207,7 +209,7 @@ difficulties that I do. I am the facilitator (and intern) of a peer support grou
 Due to the unique challenges faced by this community, I have dedicated significant time to pursuing positions of responsibility and advocacy within the queer
 community of Utah; to better equip community members, organizations, and LGBTQ+ individuals with the resources and support they need to succeed.
 
-
+([Read More](https://eliza-diggins.github.io/service.html))
 
 <script type='text/javascript' src='/assets/js/accordian.js'>
 

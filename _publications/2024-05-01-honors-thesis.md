@@ -7,7 +7,7 @@ are challenged using observational and theoretical constraints which emerge from
 date: 2024-05-01
 venue: 'University of Utah Marriott Library'
 paperurl: 'http://eliza-diggins.github.io/files/Honors_Thesis.pdf'
-citation: 'Diggins, Eliza C. (2024). &quot;Constraining Modified Gravity Using Galaxy Cluster Dynamics.&quot; Retrieved from eliza-diggins.github.io">eliza-diggins.github.io'
+citation: 'Diggins, Eliza C. (2024). &quot;Constraining Modified Gravity Using Galaxy Cluster Dynamics.&quot; Retrieved from eliza-diggins.github.io'
 ---
 
 <h3> Abstract </h3>

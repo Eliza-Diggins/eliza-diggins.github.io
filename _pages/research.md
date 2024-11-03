@@ -9,8 +9,13 @@ customjs:
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<div class="nav-buttons">
+  <a href="#why-i-do-science" class="nav-button">Why I Do Science</a>
+  <a href="#areas-of-interest" class="nav-button">Areas of Interest</a>
+  <a href="#research-ethos" class="nav-button">Research Ethos</a>
+</div>
 
-<h2>Why I Do Science</h2>
+<h2 id="why-i-do-science">Why I Do Science</h2>
 <p>
   As a multidisciplinary scientist, I'm often asked: <strong>"Why explore such varied fields? What’s the common thread?"</strong>
 </p>
@@ -18,7 +23,7 @@ customjs:
   The answer lies in my deep fascination with <strong>knowledge-building through modeling</strong>. Whether I'm applying statistical models to rare disease dynamics or computational models to galaxy clusters, I find the process of discovery through simplification profoundly engaging. Modeling enables us to distill complex phenomena into understandable frameworks, driving meaningful insights and breakthroughs. At its core, science is about puzzle-solving, and I am deeply enamored with the complexity and challenge of the puzzles I choose to solve. Furthermore, I believe that no two fields are entirely separate. In many ways, the art of modern science is to bring knowledge from one place to another to contend with new puzzles.
 </p>
 
-<h2>Areas of Interest / Current Work</h2>
+<h2 id="areas-of-interest">Areas of Interest / Current Work</h2>
 
 <div class="accordion-container">
   <button class="accordion"><i class="fas fa-meteor"></i> <strong>Astrophysics</strong></button>
@@ -198,5 +203,33 @@ customjs:
 
   .panel p {
     margin: 10px 0;
+  }
+
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .nav-button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .nav-button:hover {
+    background-color: #357ab8;
+    transform: translateY(-3px);
+  }
+
+  .nav-button:active {
+    background-color: #285a8e;
+    transform: translateY(1px);
   }
 </style>

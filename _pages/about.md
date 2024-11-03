@@ -10,9 +10,9 @@ customjs:
   - "/assets/js/accordian.js"
 ---
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-<img src="/files/Trish%20Griffee%20Photography-7325.jpg" alt="Eliza Diggins" style="width:100%; max-width:600px; border-radius:10px; margin-bottom:20px;">
+<img src="/files/Trish%20Griffee%20Photography-7325.jpg" alt="Eliza Diggins" style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 20px;">
 
 Hello! I’m **Eliza Diggins**, a theoretical astrophysicist and data scientist currently at the **[University of Utah](https://www.utah.edu)**. I hold positions in both the **[Department of Physics and Astronomy](https://www.astro.utah.edu)** and the **[School of Dentistry](https://dentistry.utah.edu)**.
 

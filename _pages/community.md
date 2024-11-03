@@ -171,12 +171,6 @@ of holistic change that truly makes a difference.
 
 <style>
 
-  h2 {
-    color: #0056b3;
-    cursor: pointer;
-    border-bottom: 2px solid #0056b3;
-    padding-bottom: 5px;
-  }
 
   .accordion-container {
     margin-bottom: 20px;

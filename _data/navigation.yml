@@ -10,6 +10,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Code"
+    url: "https://www.github.com/eliza-diggins"
+
 #  - title: "Talks"
 #    url: /talks/
 

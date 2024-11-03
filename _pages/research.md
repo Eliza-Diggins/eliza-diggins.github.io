@@ -9,6 +9,9 @@ customjs:
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<img src="/images/SLS_Lecture.JPG" alt="Eliza Diggins" style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 20px;">
+
 <div class="nav-buttons">
   <a href="#why-i-do-science" class="nav-button">Why I Do Science</a>
   <a href="#areas-of-interest" class="nav-button">Areas of Interest</a>

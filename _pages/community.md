@@ -53,6 +53,7 @@ of holistic change that truly makes a difference.
       <li>Peer-Support Group Facilitator: Facilitating Encircle's peer-support group for transgender adults, meeting Fridays at 6:30 PM.</li>
       <li>Community Support: Connecting guests to resources in the community and helping them receive the support they need to succeed.</li>
     </ul>
+    <img src="/images/EncircleSpeaker.jpg" alt="Eliza Diggins">
   </div>
 
   <button class="accordion"><i class="fas fa-chalkboard-teacher"></i> <strong>Student Lecture Series (SLS) - University of Utah</strong></button>
@@ -226,7 +227,14 @@ of holistic change that truly makes a difference.
     transition: max-height 0.2s ease-out;
     border-bottom: 1px solid #ddd;
     border-radius: 0 0 5px 5px;
+    display: flex;
   }
+
+.panel img {
+  width: 30%;
+  margin-left: 20px;
+  border-radius: 10px;
+}
 
   .panel p {
     margin: 10px 0;

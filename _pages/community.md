@@ -170,14 +170,6 @@ of holistic change that truly makes a difference.
 </script>
 
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-    background-color: #f4f4f9;
-    color: #333;
-  }
 
   h2 {
     color: #0056b3;

@@ -228,12 +228,16 @@ of holistic change that truly makes a difference.
     border-bottom: 1px solid #ddd;
     border-radius: 0 0 5px 5px;
     display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
   }
 
 .panel img {
-  width: 30%;
-  margin-left: 20px;
+  max-width: 30%;
+  height: auto;
   border-radius: 10px;
+  object-fit: cover;
 }
 
   .panel p {

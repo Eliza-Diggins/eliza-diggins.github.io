@@ -9,36 +9,25 @@ customjs:
   - "/assets/js/accordian.js"
 ---
 
-<img src="/files/ediggins_oncs.jpg" alt="Eliza Diggins" style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 20px;">
-
 <div class="nav-buttons">
   <a href="#my-approach" class="nav-button">My Approach to Advocacy</a>
   <a href="#what-doing-now" class="nav-button">What I'm Doing Now</a>
   <a href="#how-help" class="nav-button">How Can I Help?</a>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
-  <div style="flex: 1 1 45%;">
-    <video controls style="width: 100%; border-radius: 8px;">
-      <source src="../files/IMG_4644.mov" type="video/mov">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <div style="flex: 1 1 50%;">
-    <p>
-      As a transgender and autistic woman in science, I know firsthand the bitter sting of exclusion both within academia
-      and beyond it. Very few people like me are ever given a chance to enter my field, even fewer will overcome the incredible challenges
-      necessary to succeed in it. I have been incredibly fortunate to have had the opportunity to become a scientist, and were it not for
-      my community and the support it provided, I would never have persisted to where I am today.
-    </p>
-    <p>
-      My work as a scientist is often an opportunity to escape the complexities and challenges of life beyond my work, and for that opportunity
-      I am constantly grateful. Nonetheless, having relied on community support to accomplish the things that I have, I feel a sense of duty
-      and obligation to give back to my community. As a scientist, I am determined to hold open the doors which were opened for me, not to let them
-      slam shut behind me. In doing so, I hope to help others like me to thrive in my field.
-    </p>
-  </div>
-</div>
+<p>
+  As a transgender and autistic woman in science, I know firsthand the bitter sting of exclusion both within academia
+  and beyond it. Very few people like me are ever given a chance to enter my field, even fewer will overcome the incredible challenges
+  necessary to succeed in it. I have been incredibly fortunate to have had the opportunity to become a scientist, and were it not for
+  my community and the support it provided, I would never have persisted to where I am today.
+</p>
+<p>
+  My work as a scientist is often an opportunity to escape the complexities and challenges of life beyond my work, and for that opportunity
+  I am constantly grateful. Nonetheless, having relied on community support to accomplish the things that I have, I feel a sense of duty
+  and obligation to give back to my community. As a scientist, I am determined to hold open the doors which were opened for me, not to let them
+  slam shut behind me. In doing so, I hope to help others like me to thrive in my field.
+</p>
+
 
 <h2 id="my-approach">My Approach to Advocacy</h2>
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
@@ -70,14 +59,20 @@ customjs:
 
 <div class="accordion-container">
   <button class="accordion"><i class="fas fa-users"></i> <strong>Encircle LGBTQ+ Community Resource Center</strong></button>
-  <div class="panel">
-    <p>For the past several years, I have been deeply involved at Encircle, an LGBTQ+ community resource center for youth and young adults.</p>
-    <ul>
-      <li>Program Development Intern: Producing specialized programming and social support resources for transgender and neurodivergent individuals.</li>
-      <li>Peer-Support Group Facilitator: Facilitating Encircle's peer-support group for transgender adults, meeting Fridays at 6:30 PM.</li>
-      <li>Community Support: Connecting guests to resources in the community and helping them receive the support they need to succeed.</li>
-    </ul>
-  </div>
+    <div class="panel" style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+      <div style="flex: 1 1 40%;">
+        <img src="../images/eliza_red_carpet.jpg" alt="Encircle community work" style="width: 100%; height: auto; border-radius: 8px;">
+      </div>
+      <div style="flex: 1 1 55%;">
+        <p>For the past several years, I have been deeply involved at Encircle, an LGBTQ+ community resource center for youth and young adults.</p>
+        <ul>
+          <li><strong>Program Coordinator:</strong> Responsible for day-to-day logistics and operations for the Salt Lake City home.</li>
+          <li><strong>Program Development Intern:</strong> Producing specialized programming and social support resources for transgender and neurodivergent individuals.</li>
+          <li><strong>Peer-Support Group Facilitator:</strong> Facilitating Encircle's peer-support group for transgender adults, meeting Fridays at 6:30 PM.</li>
+          <li><strong>Community Support:</strong> Connecting guests to resources in the community and helping them receive the support they need to succeed.</li>
+        </ul>
+      </div>
+    </div>
 
   <button class="accordion"><i class="fas fa-chalkboard-teacher"></i> <strong>Student Lecture Series (SLS) - University of Utah</strong></button>
   <div class="panel">

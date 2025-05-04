@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<h1>Curriculum Vitae</h1>
-
 <div class="cv-container">
   <object data="../files/Eliza%20Diggins%20CV.pdf" type="application/pdf" width="100%" height="700px">
     <p>Unable to display PDF file. <a href="../files/Eliza%20Diggins%20CV.pdf" class="download-link">Download</a> instead.</p>

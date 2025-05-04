@@ -14,7 +14,9 @@ customjs:
 
 <img src="/files/ediggins_oncs.jpg" alt="Eliza Diggins" style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 20px;">
 
-Hello! I’m **Eliza Diggins**, a theoretical astrophysicist and data scientist currently at the **[University of Utah](https://www.utah.edu)**. I hold positions in both the **[Department of Physics and Astronomy](https://www.astro.utah.edu)** and the **[School of Dentistry](https://dentistry.utah.edu)**.
+Hello! I’m **Eliza Diggins**, a theoretical astrophysicist doing my Ph.D at the 
+[University of California Berkeley](https://www.berkeley.edu/). Previously, I worked at 
+the **[University of Utah](https://www.utah.edu)**, where I held positions in both the **[Department of Physics and Astronomy](https://www.astro.utah.edu)** and the **[School of Dentistry](https://dentistry.utah.edu)**.
 
 ### My Roles:
 - **<i class="fi fi-rr-telescope"></i> Physics and Astronomy**:  

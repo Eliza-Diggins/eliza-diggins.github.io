@@ -9,38 +9,62 @@ customjs:
   - "/assets/js/accordian.js"
 ---
 
+<img src="/files/ediggins_oncs.jpg" alt="Eliza Diggins" style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 20px;">
+
 <div class="nav-buttons">
   <a href="#my-approach" class="nav-button">My Approach to Advocacy</a>
   <a href="#what-doing-now" class="nav-button">What I'm Doing Now</a>
   <a href="#how-help" class="nav-button">How Can I Help?</a>
 </div>
 
-<p>
-As a transgender and autistic woman in science, I know firsthand the bitter sting of exclusion both within academia
-and beyond it. Very few people like me are ever given a chance to enter my field, even fewer will overcome the incredible challenges
-necessary to succeed in it. I have been incredibly fortunate to have had the opportunity to become a scientist, and where it not for
-my community and the support it provided, I would never have persisted to where I am today.
-</p>
-<p>
-My work as a scientist is often an opportunity to escape the complexities and challenges of life beyond my work, and for that opportunity
-I am constantly grateful. Nonetheless, having relied on community support to accomplish the things that I have, I feel a sense of duty
-and obligation to give back to my community. As a scientist, I am determined to hold open the doors which were opened for me, not to let them
-slam shut behind me. In doing so, I hope to help others like me to thrive in my field.
-</p>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1 1 45%;">
+    <video controls style="width: 100%; border-radius: 8px;">
+      <source src="../files/IMG_4644.mov" type="video/mov">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div style="flex: 1 1 50%;">
+    <p>
+      As a transgender and autistic woman in science, I know firsthand the bitter sting of exclusion both within academia
+      and beyond it. Very few people like me are ever given a chance to enter my field, even fewer will overcome the incredible challenges
+      necessary to succeed in it. I have been incredibly fortunate to have had the opportunity to become a scientist, and were it not for
+      my community and the support it provided, I would never have persisted to where I am today.
+    </p>
+    <p>
+      My work as a scientist is often an opportunity to escape the complexities and challenges of life beyond my work, and for that opportunity
+      I am constantly grateful. Nonetheless, having relied on community support to accomplish the things that I have, I feel a sense of duty
+      and obligation to give back to my community. As a scientist, I am determined to hold open the doors which were opened for me, not to let them
+      slam shut behind me. In doing so, I hope to help others like me to thrive in my field.
+    </p>
+  </div>
+</div>
 
 <h2 id="my-approach">My Approach to Advocacy</h2>
-<p>
-As an academic, I am always eager to drive change within my environment, but I recognize that
-this alone is not enough. True progress requires addressing challenges at their roots,
-especially for communities like transgender and neurodivergent individuals, who often face
-barriers long before reaching academia. For many, the struggle begins far earlier, with systemic
-issues that prevent access to higher education altogether. This is why I believe that meaningful
-change must extend beyond the academic sphere—into politics, society, and the very foundations
-of our communities. Scientists have a unique opportunity to apply their skills beyond research,
-using their expertise to organize, support, and advocate for those in need. By engaging directly
-with communities, we can contribute to saving lives, fostering resilience, and driving the kind
-of holistic change that truly makes a difference.
-</p>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1 1 50%;">
+    <p>
+      As an academic, I am always eager to drive change within my environment, but I recognize that
+      this alone is not enough. True progress requires addressing challenges at their roots,
+      especially for communities like transgender and neurodivergent individuals, who often face
+      barriers long before reaching academia. For many, the struggle begins far earlier, with systemic
+      issues that prevent access to higher education altogether. This is why I believe that meaningful
+      change must extend beyond the academic sphere—into politics, society, and the very foundations
+      of our communities. Scientists have a unique opportunity to apply their skills beyond research,
+      using their expertise to organize, support, and advocate for those in need. By engaging directly
+      with communities, we can contribute to saving lives, fostering resilience, and driving the kind
+      of holistic change that truly makes a difference.
+    </p>
+  </div>
+  <div style="flex: 1 1 45%;">
+    <figure style="margin: 0;">
+      <img src="../images/eliza_at_only_love_gala.jpg" alt="Advocacy in action" style="width: 100%; height: auto; border-radius: 8px;">
+      <figcaption style="font-size: 0.9em; color: #555; margin-top: 8px;">
+        Eliza speaking at the Only Love Gala about advocacy for queer youth and young adults. 
+      </figcaption>
+    </figure>
+  </div>
+</div>
 
 <h2 id="what-doing-now">What I'm Doing Now</h2>
 

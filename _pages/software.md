@@ -195,7 +195,7 @@ Astrophysics Codes
 <div class="panel">
 <div class="container">
   <div class="card">
-    <img src="/images/ramses.png"/>
+    <img src="/assets/images/ramses.png"/>
     <div class="card__content">
       <h2>RAMSES</h2>
       <p>
@@ -213,7 +213,7 @@ Astrophysics Codes
 <div class="panel">
 <div class="container">
   <div class="card">
-    <img src="/images/cluster_generator_logo.png"/>
+    <img src="/assets/images/cluster_generator_logo.png"/>
     <div class="card__content">
       <h2>Cluster Generator</h2>
       <p>

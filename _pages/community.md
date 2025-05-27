@@ -47,7 +47,7 @@ customjs:
   </div>
   <div style="flex: 1 1 45%;">
     <figure style="margin: 0;">
-      <img src="../images/eliza_at_only_love_gala.jpg" alt="Advocacy in action" style="width: 100%; height: auto; border-radius: 8px;">
+      <img src="/assets/images/eliza_at_only_love_gala.jpg" alt="Advocacy in action" style="width: 100%; height: auto; border-radius: 8px;" loading="eager">
       <figcaption style="font-size: 0.9em; color: #555; margin-top: 8px;">
         Eliza speaking at the Only Love Gala about advocacy for queer youth and young adults. 
       </figcaption>
@@ -61,7 +61,7 @@ customjs:
   <button class="accordion"><i class="fas fa-users"></i> <strong>Encircle LGBTQ+ Community Resource Center</strong></button>
     <div class="panel" style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
       <div style="flex: 1 1 40%;">
-        <img src="../images/eliza_red_carpet.jpg" alt="Encircle community work" style="width: 100%; height: auto; border-radius: 8px;">
+        <img src="/assets/images/eliza_red_carpet.jpg" alt="Encircle community work" style="width: 100%; height: auto; border-radius: 8px;" loading="eager">
       </div>
       <div style="flex: 1 1 55%;">
         <p>For the past several years, I have been deeply involved at Encircle, an LGBTQ+ community resource center for youth and young adults.</p>

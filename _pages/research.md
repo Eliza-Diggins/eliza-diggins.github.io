@@ -11,7 +11,7 @@ customjs:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 <div class="image-caption-container">
-  <img src="/images/SLS_Lecture.JPG" alt="Eliza Diggins" style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 10px;">
+  <img src="/assets/images/SLS_Lecture.JPG" alt="Eliza Diggins" style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 10px;">
   <p class="caption"> Delivering the inaugural student lecture series (SLS) talk on the sociology / philosophy of science. University of Utah dept. of Physics and Astronomy.</p>
 </div>
 <div class="nav-buttons">

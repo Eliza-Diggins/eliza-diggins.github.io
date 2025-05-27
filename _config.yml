@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Eliza C. Diggins - Research"
+title                    : "Eliza C. Diggins - Astrophysics & Advocacy"
 title_separator          : "-"
 name                     : &name "Eliza Diggins"
-description              : &description "personal description"
+description              : &description "Researcher in modified gravity and LGBTQ+ community advocate. Learn more about my science, activism, and public talks."
 url                      : https://eliza-diggins.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "elize-diggins/eliza-diggins.github.io"
+repository               : "eliza-diggins/eliza-diggins.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160

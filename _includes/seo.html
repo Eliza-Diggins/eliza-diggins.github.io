@@ -148,4 +148,10 @@
 {% if site.yandex_site_verification %}
   <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
 {% endif %}
+
+{% if page.noindex == true or page.noindex == "true" %}
+  <meta name="robots" content="noindex, nofollow">
+{% else %}
+  <meta name="robots" content="index, follow">
+{% endif %}
 <!-- end SEO -->

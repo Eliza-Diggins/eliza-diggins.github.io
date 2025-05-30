@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="cv-container">
-  <object data="../files/Eliza%20Diggins%20CV.pdf?v=1" type="application/pdf" width="100%" height="700px">
+  <object data="../files/Eliza%20Diggins%20CV.pdf?v=2" type="application/pdf" width="100%" height="700px">
     <p>Unable to display PDF file. <a href="../files/Eliza%20Diggins%20CV.pdf?v=1" class="download-link">Download</a> instead.</p>
   </object>
 </div>

@@ -2,6 +2,7 @@
 permalink: /service/
 title: "Social Work and Activism"
 author_profile: true
+noindex: False
 redirect_from:
   - /community/
   - /service.html

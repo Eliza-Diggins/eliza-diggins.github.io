@@ -142,6 +142,11 @@ customjs:
   these various fields of scientific inquiry and the different ways in which each informs my thinking on research questions in the others.
 </p>
 
+<div class="image-caption-container">
+  <img src="/files/eliza_at_um_cosmo_conference.JPG" alt="Eliza Diggins at UM cosmology conference." style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 10px;">
+  <p class="caption"> Chatting with colleagues during the University of Michigan Cosmology Summer School in 2025.</p>
+</div>
+
 <script>
   var acc = document.getElementsByClassName("accordion");
   var i;

@@ -7,7 +7,27 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="intro" style="margin-bottom: 30px;">
+  <p>
+    Here you'll find a collection of projects, published notes, and prototypes—spanning computational astrophysics,
+    data science, visualization, and public outreach. This is a living archive of things I’ve built, explored, or shared publicly.
+  </p>
+</div>
 
-{% for post in site.portfolio %}
+<div class="section-block" style="margin-top: 40px; margin-bottom: 20px;">
+  <h2 style="font-size: 1.5em; border-left: 4px solid #0066cc; padding-left: 12px; color: #222;">📝 Published Notes</h2>
+</div>
+
+{% assign notes = site.portfolio | where: "category", "notes" %}
+{% for post in notes reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<div class="section-block" style="margin-top: 40px; margin-bottom: 20px;">
+  <h2 style="font-size: 1.5em; border-left: 4px solid #0066cc; padding-left: 12px; color: #222;">🧪 Other Projects</h2>
+</div>
+
+{% assign other = site.portfolio | reject: "category", "notes" %}
+{% for post in other reversed %}
   {% include archive-single.html %}
 {% endfor %}

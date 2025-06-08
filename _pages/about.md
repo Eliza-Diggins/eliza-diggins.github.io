@@ -106,22 +106,29 @@ and a belief that science should be a tool for liberation, not exclusion. I focu
 
 ## 🤝 Let’s Connect
 
-<div style="background: #f5f5f5; padding: 20px 25px; border-radius: 10px; margin-top: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+<div style="background: #f9f9fb; padding: 24px 28px; border-radius: 12px; margin-top: 40px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);">
 
-<p style="font-size: 1.1em; margin-bottom: 16px;">
-If you'd like to collaborate, invite me to speak, or just say hello—I’d love to hear from you.
-</p>
+  <p style="font-size: 1.15em; margin-bottom: 20px; font-weight: 500;">
+    If you'd like to collaborate, invite me to speak, or just say hello—I’d love to hear from you.
+  </p>
 
-<ul style="list-style: none; padding-left: 0; margin: 0;">
-  <li style="margin-bottom: 8px;">
-    📬 <a href="mailto:eliza.diggins@berkeley.edu" style="text-decoration: none; font-weight: bold; color: #0066cc;">Send me a message →</a>
-  </li>
-  <li style="margin-bottom: 8px;">
-    🧠 <a href="https://github.com/eliza-diggins" target="_blank" style="text-decoration: none; color: #333;">GitHub</a>
-  </li>
-  <li>
-    💼 <a href="https://www.linkedin.com/in/eliza-diggins" target="_blank" style="text-decoration: none; color: #333;">LinkedIn</a>
-  </li>
-</ul>
+  <ul style="list-style: none; padding: 0; margin: 0; font-size: 1.05em; line-height: 1.6;">
+    <li>
+      📬 <a href="mailto:eliza.diggins@berkeley.edu" style="color: #0066cc; text-decoration: none; font-weight: 600;">
+        Send me a message
+      </a>
+    </li>
+    <li>
+      🧠 <a href="https://github.com/eliza-diggins" target="_blank" style="color: #333; text-decoration: none;">
+        GitHub
+      </a>
+    </li>
+    <li>
+      💼 <a href="https://www.linkedin.com/in/eliza-diggins" target="_blank" style="color: #333; text-decoration: none;">
+        LinkedIn
+      </a>
+    </li>
+  </ul>
 
 </div>
+

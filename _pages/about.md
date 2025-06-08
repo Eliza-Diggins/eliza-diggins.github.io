@@ -5,6 +5,7 @@ excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
+  - /home
   - /about.html
 customjs:
   - "/assets/js/accordian.js"
@@ -12,11 +13,15 @@ customjs:
 <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
 <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
 
-<img src="/files/ediggins_oncs.jpg" alt="Eliza Diggins" style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 20px;">
+<img src="/files/eliza_oncs_speech.jpg" alt="Eliza Diggins giving a speech at the ONCS gala." style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 20px;">
 
-Hello! I’m **Eliza Diggins**, a theoretical astrophysicist doing my Ph.D at the 
-[University of California Berkeley](https://www.berkeley.edu/). Previously, I worked at 
-the **[University of Utah](https://www.utah.edu)**, where I held positions in both the **[Department of Physics and Astronomy](https://www.astro.utah.edu)** and the **[School of Dentistry](https://dentistry.utah.edu)**.
+Hello! I’m Eliza Diggins, a theoretical astrophysicist and Ph.D. candidate at the [University of California, Berkeley](www.berkeley.edu),
+where I work at the intersection of cosmology and computation, using galaxy clusters and other astrophysical systems
+to probe both large-scale structure and the small-scale physics, like turbulence and conduction, that govern their evolution.
+
+Before Berkeley, I was based at the [University of Utah](https://www.utah.edu/), where I held dual research roles in both
+the [Department of Physics and Astronomy](https://www.physics.utah.edu/) and the [School of Dentistry](https://dentistry.utah.edu/)—bridging computational astrophysics
+with biomedical data science.
 
 ### My Roles:
 - **<i class="fi fi-rr-telescope"></i> Physics and Astronomy**:  

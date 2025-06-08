@@ -104,3 +104,24 @@ and a belief that science should be a tool for liberation, not exclusion. I focu
 - Facilitating peer support spaces in both academic and nonprofit settings.
 - Speaking and storytelling in support of queer youth mental health and access to care.
 
+## 🤝 Let’s Connect
+
+<div style="background: #f5f5f5; padding: 20px 25px; border-radius: 10px; margin-top: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+
+<p style="font-size: 1.1em; margin-bottom: 16px;">
+If you'd like to collaborate, invite me to speak, or just say hello—I’d love to hear from you.
+</p>
+
+<ul style="list-style: none; padding-left: 0; margin: 0;">
+  <li style="margin-bottom: 8px;">
+    📬 <a href="mailto:eliza.diggins@berkeley.edu" style="text-decoration: none; font-weight: bold; color: #0066cc;">Send me a message →</a>
+  </li>
+  <li style="margin-bottom: 8px;">
+    🧠 <a href="https://github.com/eliza-diggins" target="_blank" style="text-decoration: none; color: #333;">GitHub</a>
+  </li>
+  <li>
+    💼 <a href="https://www.linkedin.com/in/eliza-diggins" target="_blank" style="text-decoration: none; color: #333;">LinkedIn</a>
+  </li>
+</ul>
+
+</div>

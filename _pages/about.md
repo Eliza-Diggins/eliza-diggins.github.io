@@ -55,8 +55,14 @@ with biomedical data science.
     As the lead data scientist in the <a href="https://dentistry.utah.edu/research/labs/weller"><strong>Weller Lab</strong></a>,
     I explored the connections between rare diseases and autoimmune disorders. My primary interests included:
     <ul>
-      <li>big-data and machine learning projects using datasets from millions of patients.</li>
-      <li>Investigating the causes and mechanisms of disease.</li>
+      <li>Designing and implementing machine learning pipelines to analyze de-identified EHR and claims data 
+          from millions of patient records across regional and national networks.</li>
+      <li>Developing statistical models to investigate potential links between oral conditions, systemic disease progression, 
+          and social determinants of health.</li>
+      <li>Collaborating with dentists, immunologists, and computational biologists to guide translational research and 
+          shape data-driven hypotheses for clinical trials and intervention design.</li>
+      <li>Mentoring research assistants and junior data scientists while helping to publish our findings in both 
+          biomedical and dental science journals.</li>
     </ul>
   </div>
     <div style="flex: 0 0 300px; min-width: 260px;">
@@ -64,8 +70,25 @@ with biomedical data science.
     </div>
 </div>
 
+<div style="border-left: 5px solid #0066cc; background: #f7faff; padding: 16px 20px; margin: 30px 0; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+  <h3 style="margin-top: 0; font-size: 1.3em;"><i class="fi fi-rr-rocket-lunch" style="margin-right: 8px;"></i> What I’m Working On Right Now</h3>
+  <p style="margin-bottom: 0.5em;">
+    I’m developing new numerical tools to study the dynamics of galaxy clusters in simulations and data—especially the role of turbulence and conduction in the intracluster medium. I'm currently working on:
+  </p>
+  <ul style="margin-top: 0;">
+    <li>Designing a differential geometry library for astrophysical and geophysical simulations.</li>
+    <li>Running simulations to explore merger shocks in eROSITA-like clusters.</li>
+    <li>Publishing methods to analyze plasma microphysics in IllustrisTNG and similar datasets.</li>
+  </ul>
+  <p style="font-style: italic; color: #555; margin-top: 1em;">
+    (Bonus: If you care about numerical stability, open-source modeling tools, or how baryons behave on cluster scales—let’s talk.)
+  </p>
+</div>
 
 ## <i class="fi fi-rr-megaphone"></i> Advocacy and Outreach:
+
+<img src="/files/eliza_at_only_love_gala_speech.jpg" alt="Eliza Diggins giving a speech at the Only Love Gala." style="display: block; margin: 0 auto; width: 100%; max-width: 1200px; border-radius: 10px; margin-bottom: 20px;">
+
 
 Beyond academia, I am deeply committed to building a more inclusive, empathetic,
 and engaged scientific community. My advocacy work is shaped by both lived experience 
@@ -80,3 +103,4 @@ and a belief that science should be a tool for liberation, not exclusion. I focu
 - Organizing events like Transgender Day of Visibility that center joy and communal care.
 - Facilitating peer support spaces in both academic and nonprofit settings.
 - Speaking and storytelling in support of queer youth mental health and access to care.
+

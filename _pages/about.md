@@ -44,17 +44,10 @@ with biomedical data science.
     </div>
   
     <div style="flex: 0 0 300px; min-width: 260px;">
-      <figure style="margin: 0;">
         <img src="/files/eliza_at_aps_selfie.jpg" alt="Eliza Diggins at APS Conference" style="width: 100%; border-radius: 10px;">
-        <figcaption style="font-size: 0.9em; color: #555; text-align: center; margin-top: 5px;">
-          Presenting my poster at the APS Conference
-        </figcaption>
-      </figure>
     </div>
   
   </div>
-
-
 
 
 - **<i class="fi fi-rr-microscope"></i> Dentistry**:
@@ -62,13 +55,16 @@ with biomedical data science.
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px; margin-top: 10px;">
 
   <div style="flex: 1 1 400px; min-width: 280px;">
-    As the lead data scientist in the <a href="https://dentistry.utah.edu/research/labs/weller"><strong>Weller Lab</strong></a>, I explore the connections between rare diseases and autoimmune disorders. My key responsibilities include:
+    As the lead data scientist in the <a href="https://dentistry.utah.edu/research/labs/weller"><strong>Weller Lab</strong></a>,
+    I explored the connections between rare diseases and autoimmune disorders. My primary interests included:
     <ul>
-      <li>Leading big-data and machine learning projects using datasets from millions of patients.</li>
+      <li>big-data and machine learning projects using datasets from millions of patients.</li>
       <li>Investigating the causes and mechanisms of disease.</li>
-      <li>Leading a team of fellow data scientists in these efforts.</li>
     </ul>
   </div>
+    <div style="flex: 0 0 300px; min-width: 260px;">
+        <img src="/files/eliza_at_iadr.jpg" alt="Eliza Diggins at IADR conference" style="width: 100%; border-radius: 10px;">
+    </div>
 </div>
 
 

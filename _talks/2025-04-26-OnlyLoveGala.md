@@ -6,7 +6,7 @@ permalink: /talks/2025-04-26-OnlyLoveGala
 venue: "Adobe Lehi"
 date: 2025-04-26
 location: "Lehi, Utah"
-category: "outreach"
+category: "speech"
 ---
 
 On April 26th, 2025, I was honored to speak as a staff member at Encircle’s Only Love Gala, held

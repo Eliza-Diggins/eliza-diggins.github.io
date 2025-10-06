@@ -34,5 +34,6 @@ its success at galaxy scales with its shortcomings in more massive systems.
 
 [Download paper here](https://iopscience.iop.org/article/10.3847/1538-4357/adea3f/pdf)
 
+
 Recommended citation: Diggins, E. C., & Wik, D. R. (2025). Galaxy Cluster Constraints
 on Extensions of Modified Gravity. _The Astrophysical Journal, 989_(1), 17.

@@ -4,7 +4,7 @@ title: "Teaching"
 author_profile: true
 noindex: False
 redirect_from:
-  - /teaching/
+  - /teaching
   - /teaching.html
 customjs:
   - "/assets/js/accordian.js"
@@ -55,7 +55,8 @@ You can read my **full statement of teaching philosophy**
 
 ### Graduate Student Instructor – UC Berkeley
 - **ASTRON 7A: Introduction to Astrophysics (Fall 2025)**  
-  Led weekly discussion sections, guided inquiry-based problem solving, and developed interactive demonstrations. Served as guest lecturer and assisted with course logistics and grading.
+  Led weekly discussion sections, guided inquiry-based problem solving, and developed interactive demonstrations.
+  Served as guest lecturer and assisted with course logistics and grading.
 
 ### Teaching Interests
 I enjoy teaching a broad range of topics across physics and astronomy, and I’m particularly excited about developing and teaching:

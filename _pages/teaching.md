@@ -10,13 +10,6 @@ customjs:
   - "/assets/js/accordian.js"
 ---
 
----
-layout: page
-title: "Teaching"
-permalink: /teaching/
-description: "Teaching philosophy, courses, and interactive activities by Eliza C. Diggins"
----
-
 # Teaching
 
 I find great joy in teaching astronomy and physics, from introductory undergraduate courses to advanced

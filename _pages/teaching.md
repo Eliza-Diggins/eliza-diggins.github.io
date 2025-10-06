@@ -10,8 +10,6 @@ customjs:
   - "/assets/js/accordian.js"
 ---
 
-# Teaching
-
 I find great joy in teaching astronomy and physics, from introductory undergraduate courses to advanced
 topics in astrophysics and cosmology. My approach is grounded in curiosity, accessibility,
 and empowering students to think like scientists — not just to know facts, but to understand

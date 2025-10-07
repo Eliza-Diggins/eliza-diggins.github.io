@@ -56,5 +56,20 @@ I enjoy teaching a broad range of topics across physics and astronomy, and I’m
 - **Scientific Philosophy for Astronomers**
 - **Open-Source Software in Astronomy**
 
+---
+
+## Classroom Activities / Resources
+
+In the course of my teaching duties and outreach activities, I've developed a number of classroom resources and
+demos that you can use in your own teaching. I've provided a repository of these materials below for easy access. If
+you choose to use one or many of these teaching resources, please simply credit me as the original author.
+
+{% include base_path %}
+
+<div class="publications-list">
+  {% for post in site.teaching reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+
 
 _Last updated: {{ site.time | date: "%B %Y" }}_

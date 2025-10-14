@@ -7,8 +7,8 @@ main:
   - title: "Community"
     url: /community/
 
-  - title: "Publications"
-    url: /publications/
+#  - title: "Publications"
+#    url: /publications/
 
   - title: "Code"
     url: "https://www.github.com/eliza-diggins"

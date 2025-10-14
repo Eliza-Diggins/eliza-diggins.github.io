@@ -54,6 +54,7 @@ I enjoy teaching a broad range of topics across physics and astronomy, and I’m
 - **Astrophysical Dynamics and Cosmology**
 - **Open Questions in Astrophysics** (seminar format)
 - **Scientific Philosophy for Astronomers**
+  See my talk for the University of Utah's Student Lecture Series on this topic
 - **Open-Source Software in Astronomy**
 
 ---
@@ -67,9 +68,9 @@ you choose to use one or many of these teaching resources, please simply credit 
 {% include base_path %}
 
 <div class="publications-list">
-  {% for post in site.teaching reversed %}
+  {% for post in site.teaching_activities reversed %}
     {% include archive-single.html %}
   {% endfor %}
 
 
-_Last updated: {{ site.time | date: "%B %Y" }}_
+Last updated: {{ site.time | date: "%B %Y" }}

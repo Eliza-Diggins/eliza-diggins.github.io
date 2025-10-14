@@ -1,5 +1,5 @@
 ---
-title: "Fluid Dynamics Notes Notes"
+title: "Fluid Dynamics Notes"
 excerpt: "Living notes compiled from ASTRON C202: Fluid Dynamics at UC Berkeley."
 collection: portfolio
 category:  ["notes",]

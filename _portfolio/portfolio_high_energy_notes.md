@@ -1,7 +1,8 @@
 ---
 title: "High Energy Astrophysics Notes"
 excerpt: "Living notes compiled from ASTRON C254: High Energy Astrophysics at UC Berkeley."
-collection: notes
+collection: portfolio
+category: "notes"
 ---
 
 This page contains my notes from ASTRON C254: High Energy Astrophysics at UC Berkeley. The notes are a living document

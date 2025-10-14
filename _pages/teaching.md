@@ -57,7 +57,6 @@ I enjoy teaching a broad range of topics across physics and astronomy, and I’m
   See my talk for the University of Utah's Student Lecture Series on this topic
 - **Open-Source Software in Astronomy**
 
----
 
 ## Classroom Activities / Resources
 

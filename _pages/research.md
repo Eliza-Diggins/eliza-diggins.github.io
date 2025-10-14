@@ -10,17 +10,6 @@ customjs:
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-<!-- Hero -->
-<figure style="margin:0 0 12px;text-align:center">
-  <img src="/assets/images/SLS_Lecture.JPG" alt="Eliza Diggins delivering a Student Lecture Series talk on the sociology and philosophy of science."
-       style="display:block;margin:0 auto;width:100%;max-width:1200px;border-radius:12px" loading="lazy">
-  <figcaption style="font-size:.9rem;color:#6b7280;margin-top:6px">
-    Delivering the inaugural Student Lecture Series (SLS) talk — University of Utah, Dept. of Physics & Astronomy.
-  </figcaption>
-</figure>
-
-# Research Overview
-
 I am currently a graduate fellow in astrophysics at the [University of California, Berkeley](www.berkeley.edu),
 Berkeley, where my work centers on the physics of large-scale cosmic
 structures and the plasma processes that shape them. Before this, I
@@ -112,23 +101,6 @@ that has been presented at both national and international conferences.
 
 # Publications
 
-
-<style>
-  .publications-intro {
-    background: #f9f9fb;
-    border-left: 5px solid #0066cc;
-    padding: 18px 24px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  }
-  .wordwrap a {
-    font-weight: bold;
-    color: #0066cc;
-    text-decoration: none;
-  }
-</style>
-
 <div class="publications-intro">
   <p style="font-size: 1.15em; margin-bottom: 0.8em;">
     Over the past few years, I’ve worked on projects spanning computational astrophysics,
@@ -153,3 +125,20 @@ that has been presented at both national and international conferences.
     {% include archive-single.html %}
   {% endfor %}
 </div>
+
+
+<style>
+  .publications-intro {
+    background: #f9f9fb;
+    border-left: 5px solid #0066cc;
+    padding: 18px 24px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  .wordwrap a {
+    font-weight: bold;
+    color: #0066cc;
+    text-decoration: none;
+  }
+</style>

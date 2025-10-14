@@ -10,12 +10,6 @@ customjs:
   - "/assets/js/accordian.js"
 ---
 
-<div class="nav-buttons">
-  <a href="#my-approach" class="nav-button">My Approach to Advocacy</a>
-  <a href="#what-doing-now" class="nav-button">What I'm Doing Now</a>
-  <a href="#how-help" class="nav-button">How Can I Help?</a>
-</div>
-
 <p>
   As a transgender and autistic woman in science, I know firsthand the bitter sting of exclusion both within academia
   and beyond it. Very few people like me are ever given a chance to enter my field, even fewer will overcome the incredible challenges
@@ -55,8 +49,27 @@ customjs:
     </figure>
   </div>
 </div>
-
 <h2 id="what-doing-now">What I'm Doing Now</h2>
+<div class="accordion-container">
+<button class="accordion"><i class="fas fa-star"></i> <strong>Berkeley Astronomy Outreach</strong></button>
+<div class="panel" style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1 1 40%;">
+    <img src="/files/berkeley_outreach.jpg" alt="UC Berkeley Astronomy outreach event" style="width: 100%; height: auto; border-radius: 8px;" loading="eager">
+  </div>
+  <div style="flex: 1 1 55%;">
+    <p>The outreach committee is responsible for sharing the excitement of astronomy with the public. As a member, I helped organize and run a variety of events for the Bay Area community.</p>
+    <ul>
+      <li><strong>Major Events:</strong> Helped coordinate the department's presence at its largest annual public events, including <strong>Cal Day</strong> on campus and the <strong>Bay Area Science Festival</strong>.</li>
+      <li><strong>Logistics and Volunteers:</strong> Assisted with the logistics for these events, which involved communicating with organizers and gathering volunteers from the department to help run our activities.</li>
+      <li><strong>Community Talks:</strong> Facilitated smaller outreach events throughout the year, such as public talks at local libraries, department visits for schools, and presentations to local astronomy clubs.</li>
+      <li><strong>Supporting Others:</strong> Aided other department members by helping them advertise and organize their own outreach ideas and events, fostering a department-wide culture of public engagement.</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+<h2 id="what-doing-now">Past Involvement</h2>
 
 <div class="accordion-container">
   <button class="accordion"><i class="fas fa-users"></i> <strong>Encircle LGBTQ+ Community Resource Center</strong></button>

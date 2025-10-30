@@ -2,7 +2,7 @@
 title: "Fluid Dynamics Notes"
 excerpt: "Living notes compiled from ASTRON C202: Fluid Dynamics at UC Berkeley."
 collection: portfolio
-category:  ["notes",]
+category: notes
 ---
 
 This page contains my notes from ASTRON C202: Fluid Dynamics at UC Berkeley, compiled during the Fall 2025 semester.
